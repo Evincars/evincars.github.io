@@ -8,13 +8,13 @@ subtitle: 'Vlastní archív zajímavých názorů z Meta platformy'
 description: ''
 keywords: Dan Vavra
 author: Adam Lasák
-language: cs
+language: en
 timezone: 'Europe/Prague'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://evincars.github.io/
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks

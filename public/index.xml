@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Evincars blog</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Evincars blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>lasak.ad@gmail.com (Adam Lasak)</managingEditor>
+    <webMaster>lasak.ad@gmail.com (Adam Lasak)</webMaster>
+    <copyright>John Doe (CC BY 4.0)</copyright>
     <lastBuildDate>Tue, 21 Jan 2025 22:43:07 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo commands and solutions</title>
       <link>http://localhost:1313/posts/hugo-commands-and-solutions/</link>
-      <pubDate>Tue, 21 Jan 2025 22:43:07 +0100</pubDate>
+      <pubDate>Tue, 21 Jan 2025 22:43:07 +0100</pubDate><author>lasak.ad@gmail.com (Adam Lasak)</author>
       <guid>http://localhost:1313/posts/hugo-commands-and-solutions/</guid>
       <description>&lt;p&gt;Failed build&amp;amp;deployment on GitHub pages:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git submodule update --force --recursive --init --remote&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Stackoverflow thread solution &lt;a href=&#34;https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t&#34;&gt;https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Keep updated &lt;code&gt;.github/workflows/hugo.yml&lt;/code&gt;&#xA;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;https://gohugo.io/hosting-and-deployment/hosting-on-github/&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Failed build&amp;deployment on GitHub pages:</p>
+<p><code>git submodule update --force --recursive --init --remote</code></p>
+<p>Stackoverflow thread solution <a href="https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t">https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t</a></p>
+<p>Keep updated <code>.github/workflows/hugo.yml</code>
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

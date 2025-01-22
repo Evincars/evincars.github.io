@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Posts &ndash; Evincars blog</title>
+    <head><title>General Knowledge of Js and Angular &ndash; Evincars blog</title>
 <meta name="description" content="Self-education in frontend and Angular.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,6 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://evincars.github.io/posts/index.xml" title="Evincars blog">
 
 </head>
 
@@ -49,26 +48,42 @@
 </header>
 
             <section class="page__body">
-    <h1 id="posts">Posts</h1>
+    <header class="content__header">
+        <h1>General Knowledge of Js and Angular</h1>
+    </header>
+    <div class="content__body">
+        <p>A property assigned to a function like sayHi.counter = 0 does not define a local variable counter inside it. In other words, a property counter and a variable let counter are two unrelated things.
+We can treat a function as an object, store properties in it, but that has no effect on its execution. Variables are not function properties and vice versa. These are just parallel worlds.</p>
+<ul>
+<li>takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co nejmin nodes v domu</li>
+</ul>
+<ul>
+<li>switchMap - for any source item, completes the previous Observable and immediately creates the next one</li>
+<li>mergeMap - creates an Observable immediately for any source item, all previous Observables are kept alive.</li>
+<li>concatMap - waits for the previous Observable to complete before creating the next one</li>
+<li>exhaustMap - source items are ignored while the previous Observable is not completed</li>
+</ul>
+<ol>
+<li>we can apply many attribute directives to one host element. But can apply one structural directive to a host element.</li>
+<li>A structure directive basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But &ldquo;attribute directives&rdquo; are deal with changing the look and behavior of the DOM element</li>
+</ol>
+<p><strong>display: block</strong> means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).
+<strong>display: inline</strong> means that the element is displayed inline, inside the current block on the same line. Only when it&rsquo;s between two blocks does the element form an &lsquo;anonymous block&rsquo;, that however has the smallest possible width.
+<strong>display: contents</strong> causes an element&rsquo;s children to appear as if they were direct children of the element&rsquo;s parent, ignoring the element itself. This can be useful when a wrapper element should be ignored when using CSS grid or similar layout techniques.</p>
+<p>linked signal je jako computed + do nej muzes zapisovat</p>
+<p>JS Symbol hlavni use-case je vytvorit unique Key pro propertu objektu. Kazdy Symbol je zaruka ze je unikatni.</p>
+<p><strong>ngAfterContentInit</strong> : This is called after components external content has been initialized.
+<strong>ngAfterViewInit</strong> : This is called after the component view and its child views has been initialized.</p>
+<p><strong>Directives are applied at compile time</strong>. So changing an element&rsquo;s properties/classes at runtime via the DOM API-s won&rsquo;t apply that directive dynamically.</p>
+<h2 id="design-patterns-should-know"><strong>Design Patterns <em>(should know)</em></strong></h2>
+<ul>
+<li>Creational (Singleton, Builder, Factory)</li>
+<li>Structural (Facade, Adapter)</li>
+<li>Behavioral (Strategy, Observer)</li>
+</ul>
 
-    
-
-    <ul>
-    
-        <li><a href="https://evincars.github.io/posts/general-knowledge-of-js-and-angular/">General Knowledge of Js and Angular</a></li>
-
-    
-        <li><a href="https://evincars.github.io/posts/rxjs-operators/">RxJs Operators</a></li>
-
-    
-        <li><a href="https://evincars.github.io/posts/questions-to-interview/">Questions to Interview</a></li>
-
-    
-        <li><a href="https://evincars.github.io/posts/hugo-commands-and-solutions/">Hugo commands and solutions</a></li>
-
-    
-    </ul>
-
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -105,6 +120,14 @@
                 <hr>
                 <div class="aside__content">
     
+    
+        <p>
+            
+            2025-01-22
+        </p>
+    
+
+    
 
                 </div>
             </section>
@@ -118,8 +141,6 @@
     
       
     
-      
-        
       
     
     

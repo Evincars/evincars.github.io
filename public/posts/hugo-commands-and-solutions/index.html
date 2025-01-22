@@ -1,33 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
-<title>Hugo commands and solutions | Evincars blog</title>
-<meta name="title" content="Hugo commands and solutions" />
-<meta name="description" content="Failed build&amp;deployment on GitHub pages:
-git submodule update --force --recursive --init --remote
-Stackoverflow thread solution https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t
-Keep updated .github/workflows/hugo.yml
-https://gohugo.io/hosting-and-deployment/hosting-on-github/" />
-<meta name="author" content="" />
-<meta name="keywords" content="" />
+    <head><title>Hugo commands and solutions &ndash; Evincars blog</title>
+<meta name="description" content="Self-education in frontend and Angular.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
 
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-
-  
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-
-
-  
+<link rel="stylesheet" href="https://evincars.github.io/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="https://evincars.github.io/css/risotto.css">
+<link rel="stylesheet" href="https://evincars.github.io/css/custom.css">
 
 
 
@@ -38,115 +28,117 @@ https://gohugo.io/hosting-and-deployment/hosting-on-github/" />
 
 
 
-
-
-
-<meta property="og:title" content="Hugo commands and solutions" />
-<meta property="og:description" content="Failed build&amp;deployment on GitHub pages:
-git submodule update --force --recursive --init --remote
-Stackoverflow thread solution https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t
-Keep updated .github/workflows/hugo.yml
-https://gohugo.io/hosting-and-deployment/hosting-on-github/" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/hugo-commands-and-solutions/" />
-
-<meta property="og:image" content="http://localhost:1313/images/social_card_bg_hu8066241357038118187.webp"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-01-21T22:43:07+01:00" />
-<meta property="article:modified_time" content="2025-01-21T22:43:07+01:00" /><meta property="og:site_name" content="Evincars blog" />
-<meta property="fb:admins" content="0000000000" />
-
-
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/images/social_card_bg_hu8066241357038118187.webp"/>
-<meta name="twitter:title" content="Hugo commands and solutions"/>
-<meta name="twitter:description" content="Failed build&amp;deployment on GitHub pages:
-git submodule update --force --recursive --init --remote
-Stackoverflow thread solution https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t
-Keep updated .github/workflows/hugo.yml
-https://gohugo.io/hosting-and-deployment/hosting-on-github/"/>
-<meta name="twitter:site" content="@LasakAdam"/>
-
-
-
-<meta itemprop="name" content="Hugo commands and solutions">
-<meta itemprop="description" content="Failed build&amp;deployment on GitHub pages:
-git submodule update --force --recursive --init --remote
-Stackoverflow thread solution https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t
-Keep updated .github/workflows/hugo.yml
-https://gohugo.io/hosting-and-deployment/hosting-on-github/"><meta itemprop="datePublished" content="2025-01-21T22:43:07+01:00" />
-<meta itemprop="dateModified" content="2025-01-21T22:43:07+01:00" />
-<meta itemprop="wordCount" content="20">
-
-<meta itemprop="image" content="http://localhost:1313/images/social_card_bg_hu8066241357038118187.webp"/>
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-  
-  <link href="/original.min.css" rel="stylesheet">
-
-  
-
-  
-
-  
 </head>
 
-<body>
-  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+    <body>
+        <div class="page">
 
-<a href="/" class="title"><h1>Evincars blog</h1></a>
-<nav>
-<a href='http://localhost:1313/index.xml'>RSS</a>
-
-
-
-
-
-
-
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="https://evincars.github.io/" class="page__logo-inner">Evincars blog</a></h1></li>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://evincars.github.io/about/" title="">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="https://evincars.github.io/posts/" title="Posts">Posts</a></li>
+    
+    </ul>
 </nav>
+
 </header>
-  <main id="main-content">
 
-<h1>Hugo commands and solutions</h1>
-<p class="byline">
-  <time datetime='2025-01-21' pubdate>
-    2025-01-21
-  </time>
-  
-</p>
-
-<content>
-  <p>Failed build&amp;deployment on GitHub pages:</p>
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Hugo commands and solutions</h1>
+    </header>
+    <div class="content__body">
+        <p>Failed build&amp;deployment on GitHub pages:</p>
 <p><code>git submodule update --force --recursive --init --remote</code></p>
 <p>Stackoverflow thread solution <a href="https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t">https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t</a></p>
 <p>Keep updated <code>.github/workflows/hugo.yml</code>
 <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
 
-</content>
-<p>
-  
-</p>
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    <span class="about__logo" role="img">🅰️</span>&nbsp;
+    
+<h1 class="about__title">personal blog</h1>
+<p class="about__description">Self-education in frontend and Angular.</p>
+</div>
 
 
-  <p>
-    <a href='mailto:lasak.ad@gmail.com?subject=Reply%20to%20"Hugo%20commands%20and%20solutions"'>
-      Reply to this post by email ↪
-    </a>
-  </p>
-
-
-
-  </main>
-  <footer><small>
-  John Doe (CC BY 4.0) | Made with <a href="https://github.com/clente/hugo-bearcub">Bear Cub</a>
-</small></footer>
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/Evincars" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:lasak.ad@gmail.com" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://x.com/LasakAdam" rel="me" aria-label="X" title="X"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://www.linkedin.com/in/adam-lasak/" rel="me" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    
+    
+        <p>
+            
+            2025-01-21
+        </p>
+    
 
     
-</body>
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright">© <a href="http://lasaks.eu">Adam Lasak</a> &amp; <a href="https://github.com/Evincars">Evincars</a>.</p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
 
 </html>

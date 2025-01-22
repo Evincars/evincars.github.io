@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Tags &ndash; Evincars blog</title>
+    <head><title>Questions to Interview &ndash; Evincars blog</title>
 <meta name="description" content="Self-education in frontend and Angular.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,6 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://evincars.github.io/tags/index.xml" title="Evincars blog">
 
 </head>
 
@@ -41,7 +40,7 @@
     
     <li class="main-nav__item"><a class="nav-main-item" href="https://evincars.github.io/about/" title="">About</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="https://evincars.github.io/posts/" title="Posts">Posts</a></li>
+    <li class="main-nav__item"><a class="nav-main-item active" href="https://evincars.github.io/posts/" title="Posts">Posts</a></li>
     
     </ul>
 </nav>
@@ -49,14 +48,53 @@
 </header>
 
             <section class="page__body">
-    <h1 id="tags">Tags</h1>
+    <header class="content__header">
+        <h1>Questions to Interview</h1>
+    </header>
+    <div class="content__body">
+        <p>General questions:</p>
+<ul>
+<li>What is the most popular JS engine?</li>
+<li>How JS gets executed? | Why JS doesn&rsquo;t use compiler?</li>
+<li>Is JS single-threaded or multi-threaded language? Why?</li>
+<li>How is it possible that multiple requests doesn&rsquo;t block the main loop?</li>
+<li>Is JS object oriented? How is inheritance handled?</li>
+<li>What is the Event Loop? How does it works?</li>
+<li>What is the &lsquo;hoisting&rsquo; in JS</li>
+<li>What is the &lsquo;memoizing&rsquo; in JS</li>
+<li>For what is &lsquo;Symbol&rsquo; used <em>(mostly for creation unique keys for objects)</em></li>
+<li>What returns this code: <code>1 &amp;&amp; 2</code>, <code>0 &amp;&amp; 2</code></li>
+<li>+[code] micro/macro tasks</li>
+</ul>
+<p>What is the difference between these two codes?</p>
+<pre tabindex="0"><code>async loadCourseV1(): Promise&lt;Course[]&gt; {
+  const response = await fetch(&#39;/courses&#39;);
+  return response.json();
+}
+async loadCoursesV2(): Promise&lt;Course[]&gt; {
+  const response = await fetch(&#39;/courses2&#39;);
+  return await response.json();
+}
+</code></pre><p><strong>Answer</strong>: between error handling, &lsquo;return await&rsquo; if will have try&hellip;catch will be catched immedietaly.</p>
+<hr>
+<h2 id="adams-interview-questions">Adam&rsquo;s interview questions:</h2>
+<ul>
+<li>General:
+<ol>
+<li>I have a computation task which hardly consumes performance, but I need it - maybe run on background?. What can I use (<strong>answer:</strong> Web Workers)</li>
+</ol>
+</li>
+<li>Angular related:
+<ol>
+<li>My app is slow/laggy. What will you do to improve the performance? (<strong>answer:</strong>, changeDetections, reduce the amount of DOM nodes ideally)</li>
+<li>If I want to pass the data from parent component to child and vise-versa, how can I achieve this? (<strong>answer:</strong> input(), output())</li>
+<li>What is a Dependency Injection and how does it work? (<strong>answer:</strong> I&rsquo;m using an abstraction in my class and I don&rsquo;t care how does it work. Somebody needs to provide me the dependency. + deps are singletons which are handled Angular Provider)</li>
+</ol>
+</li>
+</ul>
 
-    
-
-    <ul>
-    
-    </ul>
-
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -92,6 +130,14 @@
 </div>
                 <hr>
                 <div class="aside__content">
+    
+    
+        <p>
+            
+            2025-01-22
+        </p>
+    
+
     
 
                 </div>

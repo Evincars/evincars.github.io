@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Evincars blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://evincars.github.io/</link>
     <description>Recent content on Evincars blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <managingEditor>lasak.ad@gmail.com (Adam Lasak)</managingEditor>
-    <webMaster>lasak.ad@gmail.com (Adam Lasak)</webMaster>
-    <copyright>John Doe (CC BY 4.0)</copyright>
-    <lastBuildDate>Tue, 21 Jan 2025 22:43:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© [Adam Lasak](http://lasaks.eu) &amp; [Evincars](https://github.com/Evincars).</copyright>
+    <lastBuildDate>Wed, 22 Jan 2025 01:11:34 +0100</lastBuildDate>
+    <atom:link href="https://evincars.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General Knowledge of Js and Angular</title>
+      <link>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</link>
+      <pubDate>Wed, 22 Jan 2025 01:11:34 +0100</pubDate>
+      <guid>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</guid>
+      <description>&lt;p&gt;A property assigned to a function like sayHi.counter = 0 does not define a local variable counter inside it. In other words, a property counter and a variable let counter are two unrelated things.&#xA;We can treat a function as an object, store properties in it, but that has no effect on its execution. Variables are not function properties and vice versa. These are just parallel worlds.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co nejmin nodes v domu&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;switchMap - for any source item, completes the previous Observable and immediately creates the next one&lt;/li&gt;&#xA;&lt;li&gt;mergeMap - creates an Observable immediately for any source item, all previous Observables are kept alive.&lt;/li&gt;&#xA;&lt;li&gt;concatMap - waits for the previous Observable to complete before creating the next one&lt;/li&gt;&#xA;&lt;li&gt;exhaustMap - source items are ignored while the previous Observable is not completed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;we can apply many attribute directives to one host element. But can apply one structural directive to a host element.&lt;/li&gt;&#xA;&lt;li&gt;A structure directive basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But &amp;ldquo;attribute directives&amp;rdquo; are deal with changing the look and behavior of the DOM element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;display: block&lt;/strong&gt; means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).&#xA;&lt;strong&gt;display: inline&lt;/strong&gt; means that the element is displayed inline, inside the current block on the same line. Only when it&amp;rsquo;s between two blocks does the element form an &amp;lsquo;anonymous block&amp;rsquo;, that however has the smallest possible width.&#xA;&lt;strong&gt;display: contents&lt;/strong&gt; causes an element&amp;rsquo;s children to appear as if they were direct children of the element&amp;rsquo;s parent, ignoring the element itself. This can be useful when a wrapper element should be ignored when using CSS grid or similar layout techniques.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RxJs Operators</title>
+      <link>https://evincars.github.io/posts/rxjs-operators/</link>
+      <pubDate>Wed, 22 Jan 2025 01:09:56 +0100</pubDate>
+      <guid>https://evincars.github.io/posts/rxjs-operators/</guid>
+      <description>&lt;p&gt;RxJS used in Adam&amp;rsquo;s code:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pairwise&lt;/li&gt;&#xA;&lt;li&gt;distinctUntilChanged&lt;/li&gt;&#xA;&lt;li&gt;delay&lt;/li&gt;&#xA;&lt;li&gt;forkJoin&lt;/li&gt;&#xA;&lt;li&gt;lastValueFrom&lt;/li&gt;&#xA;&lt;li&gt;withLatestFrom&lt;/li&gt;&#xA;&lt;li&gt;combineLatest&lt;/li&gt;&#xA;&lt;li&gt;defer (hlavni chain v rxMethod hned emituje value [TabInvoiceAddressComponent], coz muze zpusobit problem, takze se bud musi ostatni operatory zanorit do vnitrni .pipe nebo pouzit defer) - Adam takhle zanoruje by default vsude&lt;/li&gt;&#xA;&lt;li&gt;race&lt;/li&gt;&#xA;&lt;li&gt;merge&lt;/li&gt;&#xA;&lt;li&gt;finalize&lt;/li&gt;&#xA;&lt;li&gt;fromEvent&lt;/li&gt;&#xA;&lt;li&gt;debounceTime&lt;/li&gt;&#xA;&lt;li&gt;groupBy&lt;/li&gt;&#xA;&lt;li&gt;interval&lt;/li&gt;&#xA;&lt;li&gt;filter&lt;/li&gt;&#xA;&lt;li&gt;map&lt;/li&gt;&#xA;&lt;li&gt;startWith&lt;/li&gt;&#xA;&lt;li&gt;takeUntil&lt;/li&gt;&#xA;&lt;li&gt;takeUntilDestroyed&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Questions to Interview</title>
+      <link>https://evincars.github.io/posts/questions-to-interview/</link>
+      <pubDate>Wed, 22 Jan 2025 01:06:08 +0100</pubDate>
+      <guid>https://evincars.github.io/posts/questions-to-interview/</guid>
+      <description>&lt;p&gt;General questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What is the most popular JS engine?&lt;/li&gt;&#xA;&lt;li&gt;How JS gets executed? | Why JS doesn&amp;rsquo;t use compiler?&lt;/li&gt;&#xA;&lt;li&gt;Is JS single-threaded or multi-threaded language? Why?&lt;/li&gt;&#xA;&lt;li&gt;How is it possible that multiple requests doesn&amp;rsquo;t block the main loop?&lt;/li&gt;&#xA;&lt;li&gt;Is JS object oriented? How is inheritance handled?&lt;/li&gt;&#xA;&lt;li&gt;What is the Event Loop? How does it works?&lt;/li&gt;&#xA;&lt;li&gt;What is the &amp;lsquo;hoisting&amp;rsquo; in JS&lt;/li&gt;&#xA;&lt;li&gt;What is the &amp;lsquo;memoizing&amp;rsquo; in JS&lt;/li&gt;&#xA;&lt;li&gt;For what is &amp;lsquo;Symbol&amp;rsquo; used &lt;em&gt;(mostly for creation unique keys for objects)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;What returns this code: &lt;code&gt;1 &amp;amp;&amp;amp; 2&lt;/code&gt;, &lt;code&gt;0 &amp;amp;&amp;amp; 2&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;+[code] micro/macro tasks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;What is the difference between these two codes?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hugo commands and solutions</title>
-      <link>http://localhost:1313/posts/hugo-commands-and-solutions/</link>
-      <pubDate>Tue, 21 Jan 2025 22:43:07 +0100</pubDate><author>lasak.ad@gmail.com (Adam Lasak)</author>
-      <guid>http://localhost:1313/posts/hugo-commands-and-solutions/</guid>
+      <link>https://evincars.github.io/posts/hugo-commands-and-solutions/</link>
+      <pubDate>Tue, 21 Jan 2025 22:43:07 +0100</pubDate>
+      <guid>https://evincars.github.io/posts/hugo-commands-and-solutions/</guid>
       <description>&lt;p&gt;Failed build&amp;amp;deployment on GitHub pages:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git submodule update --force --recursive --init --remote&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Stackoverflow thread solution &lt;a href=&#34;https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t&#34;&gt;https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Keep updated &lt;code&gt;.github/workflows/hugo.yml&lt;/code&gt;&#xA;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;https://gohugo.io/hosting-and-deployment/hosting-on-github/&lt;/a&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Failed build&amp;deployment on GitHub pages:</p>
-<p><code>git submodule update --force --recursive --init --remote</code></p>
-<p>Stackoverflow thread solution <a href="https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t">https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t</a></p>
-<p>Keep updated <code>.github/workflows/hugo.yml</code>
-<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
-]]></content:encoded>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://evincars.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://evincars.github.io/about/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m a Front-End developer in TietoEVRY Czech company. I currently use Angular, NestJS, Jest, Nx, RxJS, and NgRx technologies for Energy Distribution Systems connected to major Scandinavian companies. I play with Arduino or custom Android apps in my free time. &lt;a href=&#34;http://www.lasaks.eu&#34;&gt;www.lasaks.eu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Stuff You can find me on:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Evincars&#34;&gt;https://github.com/Evincars&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://x.com/LasakAdam&#34;&gt;https://x.com/LasakAdam&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/adam-lasak/&#34;&gt;https://www.linkedin.com/in/adam-lasak/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This blog has been created by the Hugo framework, you can find it on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

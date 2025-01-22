@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>General Knowledge of Js and Angular &ndash; Evincars blog</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>General Knowledge of Js and Angular &ndash; Evincars blog</title>
 <meta name="description" content="Self-education in frontend and Angular.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +15,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-<link rel="stylesheet" href="https://evincars.github.io/css/palettes/base16-dark.css">
-<link rel="stylesheet" href="https://evincars.github.io/css/risotto.css">
-<link rel="stylesheet" href="https://evincars.github.io/css/custom.css">
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
 
 
@@ -35,12 +35,12 @@
 
             <header class="page__header"><nav class="page__nav main-nav">
     <ul>
-      <li class="nomarker"><h1 class="page__logo"><a href="https://evincars.github.io/" class="page__logo-inner">Evincars blog</a></h1></li>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Evincars blog</a></h1></li>
     
     
-    <li class="main-nav__item"><a class="nav-main-item" href="https://evincars.github.io/about/" title="">About</a></li>
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/about/" title="">About</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item active" href="https://evincars.github.io/posts/" title="Posts">Posts</a></li>
+    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:1313/posts/" title="Posts">Posts</a></li>
     
     </ul>
 </nav>
@@ -58,20 +58,20 @@ We can treat a function as an object, store properties in it, but that has no ef
 <li>takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co nejmin nodes v domu</li>
 </ul>
 <ul>
-<li>switchMap - for any source item, completes the previous Observable and immediately creates the next one</li>
-<li>mergeMap - creates an Observable immediately for any source item, all previous Observables are kept alive.</li>
-<li>concatMap - waits for the previous Observable to complete before creating the next one</li>
-<li>exhaustMap - source items are ignored while the previous Observable is not completed</li>
+<li><strong>switchMap</strong> - for any source item, completes the previous Observable and immediately creates the next one</li>
+<li><strong>mergeMap</strong> - creates an Observable immediately for any source item, all previous Observables are kept alive.</li>
+<li><strong>concatMap</strong> - waits for the previous Observable to complete before creating the next one</li>
+<li><strong>exhaustMap</strong> - source items are ignored while the previous Observable is not completed</li>
 </ul>
 <ol>
-<li>we can apply many attribute directives to one host element. But can apply one structural directive to a host element.</li>
-<li>A structure directive basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But &ldquo;attribute directives&rdquo; are deal with changing the look and behavior of the DOM element</li>
+<li>we can apply many <strong>attribute directives</strong> to one host element. But can apply one structural directive to a host element.</li>
+<li>A <strong>structure directive</strong> basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But &ldquo;attribute directives&rdquo; are deal with changing the look and behavior of the DOM element</li>
 </ol>
-<p><strong>display: block</strong> means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).
-<strong>display: inline</strong> means that the element is displayed inline, inside the current block on the same line. Only when it&rsquo;s between two blocks does the element form an &lsquo;anonymous block&rsquo;, that however has the smallest possible width.
-<strong>display: contents</strong> causes an element&rsquo;s children to appear as if they were direct children of the element&rsquo;s parent, ignoring the element itself. This can be useful when a wrapper element should be ignored when using CSS grid or similar layout techniques.</p>
-<p>linked signal je jako computed + do nej muzes zapisovat</p>
-<p>JS Symbol hlavni use-case je vytvorit unique Key pro propertu objektu. Kazdy Symbol je zaruka ze je unikatni.</p>
+<p><strong>display: block</strong> means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).</p>
+<p><strong>display: inline</strong> means that the element is displayed inline, inside the current block on the same line. Only when it&rsquo;s between two blocks does the element form an &lsquo;anonymous block&rsquo;, that however has the smallest possible width.</p>
+<p><strong>display: contents</strong> causes an element&rsquo;s children to appear as if they were direct children of the element&rsquo;s parent, ignoring the element itself. This can be useful when a wrapper element should be ignored when using CSS grid or similar layout techniques.</p>
+<p><strong>linked signal</strong> je jako computed + do nej muzes zapisovat</p>
+<p><strong>JS Symbol</strong> hlavni use-case je vytvorit unique Key pro propertu objektu. Kazdy Symbol je zaruka ze je unikatni.</p>
 <p><strong>ngAfterContentInit</strong> : This is called after components external content has been initialized.
 <strong>ngAfterViewInit</strong> : This is called after the component view and its child views has been initialized.</p>
 <p><strong>Directives are applied at compile time</strong>. So changing an element&rsquo;s properties/classes at runtime via the DOM API-s won&rsquo;t apply that directive dynamically.</p>

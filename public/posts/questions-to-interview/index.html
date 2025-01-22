@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Questions to Interview &ndash; Evincars blog</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Questions to Interview &ndash; Evincars blog</title>
 <meta name="description" content="Self-education in frontend and Angular.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +15,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-<link rel="stylesheet" href="https://evincars.github.io/css/palettes/base16-dark.css">
-<link rel="stylesheet" href="https://evincars.github.io/css/risotto.css">
-<link rel="stylesheet" href="https://evincars.github.io/css/custom.css">
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
 
 
@@ -35,12 +35,12 @@
 
             <header class="page__header"><nav class="page__nav main-nav">
     <ul>
-      <li class="nomarker"><h1 class="page__logo"><a href="https://evincars.github.io/" class="page__logo-inner">Evincars blog</a></h1></li>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Evincars blog</a></h1></li>
     
     
-    <li class="main-nav__item"><a class="nav-main-item" href="https://evincars.github.io/about/" title="">About</a></li>
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/about/" title="">About</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item active" href="https://evincars.github.io/posts/" title="Posts">Posts</a></li>
+    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:1313/posts/" title="Posts">Posts</a></li>
     
     </ul>
 </nav>
@@ -54,16 +54,17 @@
     <div class="content__body">
         <p>General questions:</p>
 <ul>
-<li>What is the most popular JS engine?</li>
-<li>How JS gets executed? | Why JS doesn&rsquo;t use compiler?</li>
-<li>Is JS single-threaded or multi-threaded language? Why?</li>
-<li>How is it possible that multiple requests doesn&rsquo;t block the main loop?</li>
-<li>Is JS object oriented? How is inheritance handled?</li>
-<li>What is the Event Loop? How does it works?</li>
-<li>What is the &lsquo;hoisting&rsquo; in JS</li>
-<li>What is the &lsquo;memoizing&rsquo; in JS</li>
-<li>For what is &lsquo;Symbol&rsquo; used <em>(mostly for creation unique keys for objects)</em></li>
-<li>What returns this code: <code>1 &amp;&amp; 2</code>, <code>0 &amp;&amp; 2</code></li>
+<li><strong>What is the most popular JS engine?</strong> <em>(Google&rsquo;s V8)</em></li>
+<li><strong>How JS gets executed? | Why JS doesn&rsquo;t use compiler?</strong> <em>()</em></li>
+<li><strong>Is JS single-threaded or multi-threaded language? Why?</strong> <em>(Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.)</em></li>
+<li><strong>How is it possible that multiple requests doesn&rsquo;t block the main loop?</strong> <em>(because of EventLoop)</em></li>
+<li><strong>Is JS object oriented? How is inheritance handled?</strong> <em>(heavily object-oriented; prototype inheritance - one object has ref to another obj (its prototype), and so on until last obj has null ref)</em></li>
+<li><strong>What is the Event Loop? How does it works?</strong> <em>()</em></li>
+<li><strong>What is serialization/deserialisation in JS?</strong> <em>(converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify)</em></li>
+<li><strong>What is the &lsquo;hoisting&rsquo; in JS?</strong> <em>(a = 0; var a; i kdyz je deklarace na konci tak interpret to hodi na zacatek a je to OK)</em></li>
+<li><strong>What is the &lsquo;memoizing&rsquo; in JS?</strong> <em>(used to increase the efficiency of function by storing the previous values that function has already been calculated)</em></li>
+<li><strong>For what is &lsquo;Symbol&rsquo; used?</strong> <em>(mostly for creation unique keys for objects)</em></li>
+<li>What returns this code: <code>1 &amp;&amp; 2</code> (2), <code>0 &amp;&amp; 2</code> (0), <code>1 || 2</code> (1), <code>0 || 2</code> (2)</li>
 <li>+[code] micro/macro tasks</li>
 </ul>
 <p>What is the difference between these two codes?</p>
@@ -76,12 +77,27 @@ async loadCoursesV2(): Promise&lt;Course[]&gt; {
   return await response.json();
 }
 </code></pre><p><strong>Answer</strong>: between error handling, &lsquo;return await&rsquo; if will have try&hellip;catch will be catched immedietaly.</p>
+<p>What will be the output of this code:</p>
+<pre tabindex="0"><code>console.log(1);
+
+setTimeout(() =&gt; console.log(2));
+
+Promise.resolve().then(() =&gt; console.log(3));
+
+Promise.resolve().then(() =&gt; setTimeout(() =&gt; console.log(4)));
+
+Promise.resolve().then(() =&gt; console.log(5));
+
+setTimeout(() =&gt; console.log(6));
+
+console.log(7);
+</code></pre><p><strong>Answer:</strong> First micro-tasks -&gt; 1 7 3 5 2 6 4</p>
 <hr>
 <h2 id="adams-interview-questions">Adam&rsquo;s interview questions:</h2>
 <ul>
 <li>General:
 <ol>
-<li>I have a computation task which hardly consumes performance, but I need it - maybe run on background?. What can I use (<strong>answer:</strong> Web Workers)</li>
+<li>I have a long heavy calculations code but I cannot block main thread, but I need that code. What can I use (<strong>answer:</strong> Web Workers. It&rsquo;ll run the code in another, paralell thread - to use multiple CPU cores simultaneously. WW don&rsquo;t have access to DOM.)</li>
 </ol>
 </li>
 <li>Angular related:

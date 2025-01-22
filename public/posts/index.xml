@@ -2,39 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Evincars blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://evincars.github.io/posts/</link>
     <description>Recent content in Posts on Evincars blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© [Adam Lasak](http://lasaks.eu) &amp; [Evincars](https://github.com/Evincars).</copyright>
     <lastBuildDate>Wed, 22 Jan 2025 01:11:34 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://evincars.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>General Knowledge of Js and Angular</title>
-      <link>http://localhost:1313/posts/general-knowledge-of-js-and-angular/</link>
+      <link>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</link>
       <pubDate>Wed, 22 Jan 2025 01:11:34 +0100</pubDate>
-      <guid>http://localhost:1313/posts/general-knowledge-of-js-and-angular/</guid>
+      <guid>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</guid>
       <description>&lt;p&gt;A property assigned to a function like sayHi.counter = 0 does not define a local variable counter inside it. In other words, a property counter and a variable let counter are two unrelated things.&#xA;We can treat a function as an object, store properties in it, but that has no effect on its execution. Variables are not function properties and vice versa. These are just parallel worlds.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co nejmin nodes v domu&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;switchMap&lt;/strong&gt; - for any source item, completes the previous Observable and immediately creates the next one&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;mergeMap&lt;/strong&gt; - creates an Observable immediately for any source item, all previous Observables are kept alive.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;concatMap&lt;/strong&gt; - waits for the previous Observable to complete before creating the next one&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;exhaustMap&lt;/strong&gt; - source items are ignored while the previous Observable is not completed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;we can apply many &lt;strong&gt;attribute directives&lt;/strong&gt; to one host element. But can apply one structural directive to a host element.&lt;/li&gt;&#xA;&lt;li&gt;A &lt;strong&gt;structure directive&lt;/strong&gt; basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But &amp;ldquo;attribute directives&amp;rdquo; are deal with changing the look and behavior of the DOM element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;display: block&lt;/strong&gt; means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).&lt;/p&gt;</description>
     </item>
     <item>
       <title>RxJs Operators</title>
-      <link>http://localhost:1313/posts/rxjs-operators/</link>
+      <link>https://evincars.github.io/posts/rxjs-operators/</link>
       <pubDate>Wed, 22 Jan 2025 01:09:56 +0100</pubDate>
-      <guid>http://localhost:1313/posts/rxjs-operators/</guid>
+      <guid>https://evincars.github.io/posts/rxjs-operators/</guid>
       <description>&lt;p&gt;RxJS used in Adam&amp;rsquo;s code:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pairwise&lt;/li&gt;&#xA;&lt;li&gt;distinctUntilChanged&lt;/li&gt;&#xA;&lt;li&gt;delay&lt;/li&gt;&#xA;&lt;li&gt;forkJoin&lt;/li&gt;&#xA;&lt;li&gt;lastValueFrom&lt;/li&gt;&#xA;&lt;li&gt;withLatestFrom&lt;/li&gt;&#xA;&lt;li&gt;combineLatest&lt;/li&gt;&#xA;&lt;li&gt;defer (hlavni chain v rxMethod hned emituje value [TabInvoiceAddressComponent], coz muze zpusobit problem, takze se bud musi ostatni operatory zanorit do vnitrni .pipe nebo pouzit defer) - Adam takhle zanoruje by default vsude&lt;/li&gt;&#xA;&lt;li&gt;race&lt;/li&gt;&#xA;&lt;li&gt;merge&lt;/li&gt;&#xA;&lt;li&gt;finalize&lt;/li&gt;&#xA;&lt;li&gt;fromEvent&lt;/li&gt;&#xA;&lt;li&gt;debounceTime&lt;/li&gt;&#xA;&lt;li&gt;groupBy&lt;/li&gt;&#xA;&lt;li&gt;interval&lt;/li&gt;&#xA;&lt;li&gt;filter&lt;/li&gt;&#xA;&lt;li&gt;map&lt;/li&gt;&#xA;&lt;li&gt;startWith&lt;/li&gt;&#xA;&lt;li&gt;takeUntil&lt;/li&gt;&#xA;&lt;li&gt;takeUntilDestroyed&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Questions to Interview</title>
-      <link>http://localhost:1313/posts/questions-to-interview/</link>
+      <link>https://evincars.github.io/posts/questions-to-interview/</link>
       <pubDate>Wed, 22 Jan 2025 01:06:08 +0100</pubDate>
-      <guid>http://localhost:1313/posts/questions-to-interview/</guid>
+      <guid>https://evincars.github.io/posts/questions-to-interview/</guid>
       <description>&lt;p&gt;General questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the most popular JS engine?&lt;/strong&gt; &lt;em&gt;(Google&amp;rsquo;s V8)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How JS gets executed? | Why JS doesn&amp;rsquo;t use compiler?&lt;/strong&gt; &lt;em&gt;()&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Is JS single-threaded or multi-threaded language? Why?&lt;/strong&gt; &lt;em&gt;(Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How is it possible that multiple requests doesn&amp;rsquo;t block the main loop?&lt;/strong&gt; &lt;em&gt;(because of EventLoop)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Is JS object oriented? How is inheritance handled?&lt;/strong&gt; &lt;em&gt;(heavily object-oriented; prototype inheritance - one object has ref to another obj (its prototype), and so on until last obj has null ref)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the Event Loop? How does it works?&lt;/strong&gt; &lt;em&gt;()&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is serialization/deserialisation in JS?&lt;/strong&gt; &lt;em&gt;(converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the &amp;lsquo;hoisting&amp;rsquo; in JS?&lt;/strong&gt; &lt;em&gt;(a = 0; var a; i kdyz je deklarace na konci tak interpret to hodi na zacatek a je to OK)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the &amp;lsquo;memoizing&amp;rsquo; in JS?&lt;/strong&gt; &lt;em&gt;(used to increase the efficiency of function by storing the previous values that function has already been calculated)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;For what is &amp;lsquo;Symbol&amp;rsquo; used?&lt;/strong&gt; &lt;em&gt;(mostly for creation unique keys for objects)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;What returns this code: &lt;code&gt;1 &amp;amp;&amp;amp; 2&lt;/code&gt; (2), &lt;code&gt;0 &amp;amp;&amp;amp; 2&lt;/code&gt; (0), &lt;code&gt;1 || 2&lt;/code&gt; (1), &lt;code&gt;0 || 2&lt;/code&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;+[code] micro/macro tasks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;What is the difference between these two codes?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo commands and solutions</title>
-      <link>http://localhost:1313/posts/hugo-commands-and-solutions/</link>
+      <link>https://evincars.github.io/posts/hugo-commands-and-solutions/</link>
       <pubDate>Tue, 21 Jan 2025 22:43:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/hugo-commands-and-solutions/</guid>
+      <guid>https://evincars.github.io/posts/hugo-commands-and-solutions/</guid>
       <description>&lt;p&gt;Failed build&amp;amp;deployment on GitHub pages:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;git submodule update --force --recursive --init --remote&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Stackoverflow thread solution &lt;a href=&#34;https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t&#34;&gt;https://stackoverflow.com/questions/42417294/why-does-git-fail-to-fetch-specific-valid-submodule-for-a-given-commit-and-how-t&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Keep updated &lt;code&gt;.github/workflows/hugo.yml&lt;/code&gt;&#xA;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;https://gohugo.io/hosting-and-deployment/hosting-on-github/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

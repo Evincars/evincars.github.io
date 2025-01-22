@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js on Evincars blog</title>
+    <link>https://evincars.github.io/categories/js/</link>
+    <description>Recent content in Js on Evincars blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jan 2025 01:06:08 +0100</lastBuildDate>
+    <atom:link href="https://evincars.github.io/categories/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Questions to Interview</title>
+      <link>https://evincars.github.io/posts/questions-to-interview/</link>
+      <pubDate>Wed, 22 Jan 2025 01:06:08 +0100</pubDate>
+      <guid>https://evincars.github.io/posts/questions-to-interview/</guid>
+      <description>&lt;p&gt;General questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the most popular JS engine?&lt;/strong&gt; &lt;em&gt;(Google&amp;rsquo;s V8)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How JS gets executed? | Why JS doesn&amp;rsquo;t use compiler?&lt;/strong&gt; &lt;em&gt;()&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Is JS single-threaded or multi-threaded language? Why?&lt;/strong&gt; &lt;em&gt;(Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How is it possible that multiple requests doesn&amp;rsquo;t block the main loop?&lt;/strong&gt; &lt;em&gt;(because of EventLoop)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Is JS object oriented? How is inheritance handled?&lt;/strong&gt; &lt;em&gt;(heavily object-oriented; prototype inheritance - one object has ref to another obj (its prototype), and so on until last obj has null ref)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the Event Loop? How does it works?&lt;/strong&gt; &lt;em&gt;()&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is serialization/deserialisation in JS?&lt;/strong&gt; &lt;em&gt;(converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the &amp;lsquo;hoisting&amp;rsquo; in JS?&lt;/strong&gt; &lt;em&gt;(a = 0; var a; i kdyz je deklarace na konci tak interpret to hodi na zacatek a je to OK)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the &amp;lsquo;memoizing&amp;rsquo; in JS?&lt;/strong&gt; &lt;em&gt;(used to increase the efficiency of function by storing the previous values that function has already been calculated)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;For what is &amp;lsquo;Symbol&amp;rsquo; used?&lt;/strong&gt; &lt;em&gt;(mostly for creation unique keys for objects)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;What returns this code: &lt;code&gt;1 &amp;amp;&amp;amp; 2&lt;/code&gt; (2), &lt;code&gt;0 &amp;amp;&amp;amp; 2&lt;/code&gt; (0), &lt;code&gt;1 || 2&lt;/code&gt; (1), &lt;code&gt;0 || 2&lt;/code&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;+[code] micro/macro tasks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;What is the difference between these two codes?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,7 @@
 date = '2025-01-22T01:06:08+01:00'
 draft = false
 title = 'Questions to Interview'
+categories = ['interview', 'js']
 +++
 
 General questions:

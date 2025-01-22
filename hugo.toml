@@ -1,111 +1,71 @@
 baseURL = 'https://evincars.github.io/'
 languageCode = 'en-us'
 title = 'Evincars blog'
-theme = 'risotto'
+theme = 'binario'
 
 
-copyright = "© [Adam Lasak](http://lasaks.eu) & [Evincars](https://github.com/Evincars)."
-author = "Adam Lasak"
-paginate = 3
-# languageCode = "en"
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
+[Params]
+  description = "Personal blog for my Angular notes"
+  columns = 2
+  copyright = "Binario" # Copyright holder, otherwise will use .Site.Title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  mainSections = ["posts"] # Set main page sections
+  dateFormat = "January 02, 2006" # Change the format of dates
+  colorTheme = "" # dark-green, dark-blue, dark-red, dark-violet
+# customCSS = ["css/custom.css"] # Include custom CSS files
+# customJS = ["js/custom.js"]#  Include custom JS files
+# mainMenuAlignment = "right"#  Align main menu (desktop version) to the right side
+# authorbox = true # Show auto rbox at bottom of single pages if true
+# comments = true # Enable com ents for all site pages
+# related = true # Enable Relt ed content for single pages
+# relatedMax = 5 # Set the mai mum number of elements that can be displayed in related block. Optional
+# mathjax = true # Enable MatJ ax for all site pages
+# mathjaxPath = "https://cdnj. cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
+# mathjaxConfig = "TeX-AMS-MM_ HTMLorMML" # Specify MathJax config. Optional
+# hideNoPostsWarning = false   Don't show no posts empty state warning in main page, if true
 
-# Automatically add content sections to main menu
-sectionPagesMenu = "main"
+[Params.Entry]
+  meta = ["date", "categories", "tags"] # Enable meta fields in given order
+  toc = true # Enable Table of Contents
+  tocOpen = true # Open Table of Contents block. Optional
 
-[params]
-noindex = false
+[Params.Featured]
+  previewOnly = false # Show only preview featured image
 
-[params.theme]
-palette = "base16-dark"
+[Params.Breadcrumb]
+  enable = true # Enable breadcrumb block globally
+  homeText = "Home" # Home node text
 
-# Sidebar: about/bio
-[params.about]
-title = "personal blog"
-description = "Self-education in frontend and Angular."
-# unicode/emoji logo:
-logo = "🅰️"
-# or use an image:
-#logo_image = "images/rice.svg"
+[Params.Social]
+  email = "lasak.ad@gmail.com"
+  twitter = "LasakAdam"
+  linkedin = "adam-lasak"
+  github = "Evincars"
 
-# Sidebar: social links
-# Available icon sets:
-# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
-# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+[Params.Share] # Entry Share block
+  twitter = true
+  reddit = true
+  linkedin = true
 
-[[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/Evincars"
+[Params.Manifest]
+  name = "Binario"
+  shortName = "Binario"
+  display = "browser"
+  startUrl = "/"
+  backgroundColor = "#2a2a2a"
+  themeColor = "#1b1b1b"
+  description = "Responsive card-based & code-light Hugo theme"
+  orientation = "portrait"
+  scope = "/"
 
-[[params.socialLinks]]
-icon = "fa-solid fa-envelope"
-title = "Email"
-url = "mailto:lasak.ad@gmail.com"
+[outputFormats]
+  [outputFormats.MANIFEST]
+    mediaType = "application/json"
+    baseName = "manifest"
+    isPlainText = true
+    notAlternative = true
 
-[[params.socialLinks]]
-icon = "fa-brands fa-twitter"
-title = "X"
-url = "https://x.com/LasakAdam"
-
-[[params.socialLinks]]
-icon = "fa-brands fa-linkedin"
-title = "LinkedIn"
-url = "https://www.linkedin.com/in/adam-lasak/"
-
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
-# For hugo >= 0.60.0, enable inline HTML
-[markup.goldmark.renderer]
-unsafe = true
-
-[markup]
-
-  # Table of contents
-  # Add toc = true to content front matter to enable
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel   = 3
-    ordered    = true
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
+[outputs]
+  home = ["HTML", "RSS", "MANIFEST"]

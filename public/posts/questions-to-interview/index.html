@@ -1,58 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>Questions to Interview | Evincars blog</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:url" content="https://evincars.github.io/posts/questions-to-interview/">
+  <meta property="og:site_name" content="Evincars blog">
+  <meta property="og:title" content="Questions to Interview">
+  <meta property="og:description" content="General questions:
+What is the most popular JS engine? (Google’s V8) How JS gets executed? | Why JS doesn’t use compiler? () Is JS single-threaded or multi-threaded language? Why? (Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.) How is it possible that multiple requests doesn’t block the main loop? (because of EventLoop) Is JS object oriented? How is inheritance handled? (heavily object-oriented; prototype inheritance - one object has ref to another obj (its prototype), and so on until last obj has null ref) What is the Event Loop? How does it works? () What is serialization/deserialisation in JS? (converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify) What is the ‘hoisting’ in JS? (a = 0; var a; i kdyz je deklarace na konci tak interpret to hodi na zacatek a je to OK) What is the ‘memoizing’ in JS? (used to increase the efficiency of function by storing the previous values that function has already been calculated) For what is ‘Symbol’ used? (mostly for creation unique keys for objects) What returns this code: 1 &amp;&amp; 2 (2), 0 &amp;&amp; 2 (0), 1 || 2 (1), 0 || 2 (2) &#43;[code] micro/macro tasks What is the difference between these two codes?">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-22T01:06:08+01:00">
+    <meta property="article:modified_time" content="2025-01-22T01:06:08+01:00">
 
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Questions to Interview &ndash; Evincars blog</title>
-<meta name="description" content="Self-education in frontend and Angular.">
+		
+  <meta itemprop="name" content="Questions to Interview">
+  <meta itemprop="description" content="General questions:
+What is the most popular JS engine? (Google’s V8) How JS gets executed? | Why JS doesn’t use compiler? () Is JS single-threaded or multi-threaded language? Why? (Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.) How is it possible that multiple requests doesn’t block the main loop? (because of EventLoop) Is JS object oriented? How is inheritance handled? (heavily object-oriented; prototype inheritance - one object has ref to another obj (its prototype), and so on until last obj has null ref) What is the Event Loop? How does it works? () What is serialization/deserialisation in JS? (converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify) What is the ‘hoisting’ in JS? (a = 0; var a; i kdyz je deklarace na konci tak interpret to hodi na zacatek a je to OK) What is the ‘memoizing’ in JS? (used to increase the efficiency of function by storing the previous values that function has already been calculated) For what is ‘Symbol’ used? (mostly for creation unique keys for objects) What returns this code: 1 &amp;&amp; 2 (2), 0 &amp;&amp; 2 (0), 1 || 2 (1), 0 || 2 (2) &#43;[code] micro/macro tasks What is the difference between these two codes?">
+  <meta itemprop="datePublished" content="2025-01-22T01:06:08+01:00">
+  <meta itemprop="dateModified" content="2025-01-22T01:06:08+01:00">
+  <meta itemprop="wordCount" content="433">
+  <meta itemprop="keywords" content="Interview,Js">
+		
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Questions to Interview">
+  <meta name="twitter:description" content="General questions:
+What is the most popular JS engine? (Google’s V8) How JS gets executed? | Why JS doesn’t use compiler? () Is JS single-threaded or multi-threaded language? Why? (Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.) How is it possible that multiple requests doesn’t block the main loop? (because of EventLoop) Is JS object oriented? How is inheritance handled? (heavily object-oriented; prototype inheritance - one object has ref to another obj (its prototype), and so on until last obj has null ref) What is the Event Loop? How does it works? () What is serialization/deserialisation in JS? (converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify) What is the ‘hoisting’ in JS? (a = 0; var a; i kdyz je deklarace na konci tak interpret to hodi na zacatek a je to OK) What is the ‘memoizing’ in JS? (used to increase the efficiency of function by storing the previous values that function has already been calculated) For what is ‘Symbol’ used? (mostly for creation unique keys for objects) What returns this code: 1 &amp;&amp; 2 (2), 0 &amp;&amp; 2 (0), 1 || 2 (1), 0 || 2 (2) &#43;[code] micro/macro tasks What is the difference between these two codes?">
+      <meta name="twitter:site" content="@LasakAdam">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8"/>
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
-<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
-<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
-
-
-
-
-
-
-
-
-
-
+	<link rel="stylesheet" href="/css/bundle.css">
+	<link rel="icon" href="/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/icons/32.png" sizes="32x32" type="image/png">
+	<link rel="manifest" href="/manifest.json">
 </head>
-
-    <body>
-        <div class="page">
-
-            <header class="page__header"><nav class="page__nav main-nav">
-    <ul>
-      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Evincars blog</a></h1></li>
-    
-    
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/about/" title="">About</a></li>
-    
-    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:1313/posts/" title="Posts">Posts</a></li>
-    
-    </ul>
-</nav>
-
+<body class="body kind-page">
+	<header class="header">
+	<a class="logo" href="/">Evincars blog</a>
+	
 </header>
-
-            <section class="page__body">
-    <header class="content__header">
-        <h1>Questions to Interview</h1>
-    </header>
-    <div class="content__body">
-        <p>General questions:</p>
+	<div class="primary">
+	
+	<main class="main">
+		
+<nav class="breadcrumb block" aria-label="breadcrumb">
+	<ol class="breadcrumb__list">
+		
+		<li class="breadcrumb__item">
+			<a class="breadcrumbs__link" href="/">Home</a>
+		</li>
+		<li class="breadcrumb__item">
+			<a class="breadcrumbs__link" href="/posts/">Posts</a>
+		</li>
+		<li class="breadcrumbs__item breadcrumb__item--active" aria-current="page">Questions to Interview</li>
+	</ol>
+</nav>
+		<div class="single block">
+			<article class="entry">
+	<div class="entry__meta meta mb">
+	<time class="entry__meta-published meta-published" datetime="2025-01-22T01:06:08&#43;01:00">January 22, 2025</time>
+<div class="entry__meta-categories meta-categories">
+	<span class="meta-categories__list">Categories:
+		<a class="meta-categories__link" href="/categories/interview/" rel="category">interview</a>, 
+		<a class="meta-categories__link" href="/categories/js/" rel="category">js</a>
+	</span>
+</div>
+	</div>
+				<h1 class="entry__title">Questions to Interview</h1>
+<details class="entry__toc toc" open>
+	<summary class="toc__title">Table of Contents</summary>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#adams-interview-questions">Adam&rsquo;s interview questions:</a></li>
+  </ul>
+</nav>
+</details>
+				<div class="entry__content"><p>General questions:</p>
 <ul>
 <li><strong>What is the most popular JS engine?</strong> <em>(Google&rsquo;s V8)</em></li>
 <li><strong>How JS gets executed? | Why JS doesn&rsquo;t use compiler?</strong> <em>()</em></li>
@@ -108,88 +135,51 @@ console.log(7);
 </ol>
 </li>
 </ul>
-
-    </div>
-    <footer class="content__footer"></footer>
-
-            </section>
-
-            <section class="page__aside">
-                <div class="aside__about">
-<div class="aside__about">
-    <span class="about__logo" role="img">🅰️</span>&nbsp;
-    
-<h1 class="about__title">personal blog</h1>
-<p class="about__description">Self-education in frontend and Angular.</p>
 </div>
-
-
-<ul class="aside__social-links">
-    
-    <li>
-        <a href="https://github.com/Evincars" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="mailto:lasak.ad@gmail.com" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="https://x.com/LasakAdam" rel="me" aria-label="X" title="X"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-    <li>
-        <a href="https://www.linkedin.com/in/adam-lasak/" rel="me" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>&nbsp;
-    </li>
-    
-</ul>
+				
+				<footer class="entry__footer">
+					
+					
+<div class="entry__share share">
+	<a class="share__link btn" title="Share on Twitter" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fevincars.github.io%2fposts%2fquestions-to-interview%2f&amp;text=Questions%20to%20Interview" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on Twitter', 'width=800,height=450,resizable=yes,toolbar=0,status=0'); return false">
+		<svg class="share__icon" aria-label="Twitter" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"/></svg>
+	</a>
+	<a class="share__link btn" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3a%2f%2fevincars.github.io%2fposts%2fquestions-to-interview%2f&amp;title=Questions%20to%20Interview" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on Reddit', 'width=832,height=624,toolbar=0,status=0'); return false">
+		<svg class="share__icon" aria-label="Reddit" role="img" width="32" height="32" viewBox="0 0 512 512"><path fill-rule="evenodd" d="M375 146a32 32 0 1 0-29-46l-65-13c-5-1-9 2-10 6l-22 97c-45 1-85 15-113 36a42 42 0 1 0-45 69l-1 12c0 65 74 117 166 117s166-52 166-117l-1-11a42 42 0 1 0-44-69c-28-21-67-35-111-37l19-86 58 13a32 32 0 0 0 32 29zM190 353c2-1 4 0 5 1 15 11 38 18 61 18s46-6 61-18a7 7 0 0 1 8 10c-18 14-44 21-69 21-25-1-51-7-69-21a6 6 0 0 1 3-11zm23-44a31 31 0 1 1-44-44 31 31 0 0 1 44 44zm130 0a31 31 0 1 0-44-44 31 31 0 0 0 44 44z"/></svg>
+	</a>
+	<a class="share__link btn" title="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fevincars.github.io%2fposts%2fquestions-to-interview%2f&title=Questions%20to%20Interview" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
+		<svg class="share__icon" aria-label="LinkedIn" role="img" width="32" height="32" viewBox="0 0 512 512"><circle cx="142" cy="138" r="37"/><path stroke-width="66" d="M244 194v198M142 194v198"/><path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/></svg>
+	</a>
 </div>
-                <hr>
-                <div class="aside__content">
-    
-    
-        <p>
-            
-            2025-01-22
-        </p>
-    
+				</footer>
+				
+			</article>
+		</div>
+	</main>
+	
+	
 
-    
 
-                </div>
-            </section>
 
-            <footer class="page__footer"><p>
-    
-    
-    
-    
-    
-    
-      
-    
-      
-    
-    
-    
-      
-      
-          
-            
-            
-                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+	
 
-            
-          
-      
-    
-</p>
-<br /><br />
-<p class="copyright">© <a href="http://lasaks.eu">Adam Lasak</a> &amp; <a href="https://github.com/Evincars">Evincars</a>.</p>
-<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+	</div>
+	<footer class="footer">
+<div class="footer__social social">
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="mailto:lasak.ad@gmail.com">
+			<svg class="social__icon" aria-label="Email" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M299 268l124 106c-4 4-10 7-17 7H106c-7 0-13-3-17-7l124-106 43 38 43-38zm-43 13L89 138c4-4 10-7 17-7h300c7 0 13 3 17 7L256 281zm54-23l121-105v208L310 258zM81 153l121 105L81 361V153z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/LasakAdam">
+			<svg class="social__icon" aria-label="Twitter" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/adam-lasak">
+			<svg class="social__icon" aria-label="LinkedIn" role="img" width="32" height="32" viewBox="0 0 512 512"><circle cx="142" cy="138" r="37"/><path stroke-width="66" d="M244 194v198M142 194v198"/><path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://github.com/Evincars">
+			<svg class="social__icon" aria-label="Github" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg>
+		</a>
+</div>
+	<div class="footer__copyright">© 2025 Binario. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
 </footer>
-
-        </div>
-    </body>
-
+</body>
 </html>

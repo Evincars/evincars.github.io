@@ -2,31 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://evincars.github.io/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/general-knowledge-of-js-and-angular/</loc>
+    <loc>https://evincars.github.io/tags/angular/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://evincars.github.io/tags/css/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/rxjs-operators/</loc>
+    <loc>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</loc>
+    <lastmod>2025-01-22T01:11:34+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/tags/js/</loc>
+    <lastmod>2025-01-22T01:11:34+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/posts/</loc>
+    <lastmod>2025-01-22T01:11:34+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/tags/</loc>
+    <lastmod>2025-01-22T01:11:34+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/tags/rxjs/</loc>
     <lastmod>2025-01-22T01:09:56+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/questions-to-interview/</loc>
+    <loc>https://evincars.github.io/posts/rxjs-operators/</loc>
+    <lastmod>2025-01-22T01:09:56+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/categories/</loc>
     <lastmod>2025-01-22T01:06:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hugo-commands-and-solutions/</loc>
+    <loc>https://evincars.github.io/categories/interview/</loc>
+    <lastmod>2025-01-22T01:06:08+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/categories/js/</loc>
+    <lastmod>2025-01-22T01:06:08+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/posts/questions-to-interview/</loc>
+    <lastmod>2025-01-22T01:06:08+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/tags/hugo/</loc>
     <lastmod>2025-01-21T22:43:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://evincars.github.io/posts/hugo-commands-and-solutions/</loc>
+    <lastmod>2025-01-21T22:43:07+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

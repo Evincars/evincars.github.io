@@ -6,8 +6,15 @@
     <description>Recent content in Js on Evincars blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jan 2025 01:06:08 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2025 01:11:34 +0100</lastBuildDate>
     <atom:link href="https://evincars.github.io/categories/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General Knowledge of Js and Angular</title>
+      <link>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</link>
+      <pubDate>Wed, 22 Jan 2025 01:11:34 +0100</pubDate>
+      <guid>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</guid>
+      <description>&lt;p&gt;A property assigned to a function like sayHi.counter = 0 does not define a local variable counter inside it. In other words, a property counter and a variable let counter are two unrelated things.&#xA;We can treat a function as an object, store properties in it, but that has no effect on its execution. Variables are not function properties and vice versa. These are just parallel worlds.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co nejmin nodes v domu&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;switchMap&lt;/strong&gt; - for any source item, completes the previous Observable and immediately creates the next one&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;mergeMap&lt;/strong&gt; - creates an Observable immediately for any source item, all previous Observables are kept alive.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;concatMap&lt;/strong&gt; - waits for the previous Observable to complete before creating the next one&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;exhaustMap&lt;/strong&gt; - source items are ignored while the previous Observable is not completed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;we can apply many &lt;strong&gt;attribute directives&lt;/strong&gt; to one host element. But can apply one structural directive to a host element.&lt;/li&gt;&#xA;&lt;li&gt;A &lt;strong&gt;structure directive&lt;/strong&gt; basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But &amp;ldquo;attribute directives&amp;rdquo; are deal with changing the look and behavior of the DOM element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;display: block&lt;/strong&gt; means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Questions to Interview</title>
       <link>https://evincars.github.io/posts/questions-to-interview/</link>

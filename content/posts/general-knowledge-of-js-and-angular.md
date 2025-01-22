@@ -2,7 +2,7 @@
 date = '2025-01-22T01:11:34+01:00'
 draft = false
 title = 'General Knowledge of Js and Angular'
-tags = ['angular', 'css', 'js']
+categories = ['angular', 'css', 'js']
 +++
 
 A property assigned to a function like sayHi.counter = 0 does not define a local variable counter inside it. In other words, a property counter and a variable let counter are two unrelated things.

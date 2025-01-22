@@ -5,37 +5,31 @@
     <loc>https://evincars.github.io/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
-    <loc>https://evincars.github.io/tags/angular/</loc>
+    <loc>https://evincars.github.io/categories/angular/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
-    <loc>https://evincars.github.io/tags/css/</loc>
+    <loc>https://evincars.github.io/categories/</loc>
+    <lastmod>2025-01-22T01:11:34+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/categories/css/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
-    <loc>https://evincars.github.io/tags/js/</loc>
+    <loc>https://evincars.github.io/categories/js/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
-    <loc>https://evincars.github.io/tags/</loc>
-    <lastmod>2025-01-22T01:11:34+01:00</lastmod>
-  </url><url>
-    <loc>https://evincars.github.io/tags/rxjs/</loc>
+    <loc>https://evincars.github.io/categories/rxjs/</loc>
     <lastmod>2025-01-22T01:09:56+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/rxjs-operators/</loc>
     <lastmod>2025-01-22T01:09:56+01:00</lastmod>
   </url><url>
-    <loc>https://evincars.github.io/categories/</loc>
-    <lastmod>2025-01-22T01:06:08+01:00</lastmod>
-  </url><url>
     <loc>https://evincars.github.io/categories/interview/</loc>
-    <lastmod>2025-01-22T01:06:08+01:00</lastmod>
-  </url><url>
-    <loc>https://evincars.github.io/categories/js/</loc>
     <lastmod>2025-01-22T01:06:08+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/questions-to-interview/</loc>
@@ -45,6 +39,9 @@
     <lastmod>2025-01-21T22:43:07+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/hugo-commands-and-solutions/</loc>
+    <lastmod>2025-01-21T22:43:07+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/tags/</loc>
     <lastmod>2025-01-21T22:43:07+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/about/</loc>

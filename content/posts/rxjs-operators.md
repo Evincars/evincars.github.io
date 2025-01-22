@@ -2,7 +2,7 @@
 date = '2025-01-22T01:09:56+01:00'
 draft = false
 title = 'RxJs Operators'
-tags = ['angular', 'rxjs']
+categories = ['angular', 'rxjs']
 +++
 
 RxJS used in Adam's code:

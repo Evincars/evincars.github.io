@@ -6,8 +6,15 @@
     <description>Recent content in Js on Evincars blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jan 2025 01:11:34 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 02:19:09 +0100</lastBuildDate>
     <atom:link href="https://evincars.github.io/categories/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bind() vs Call() vs Apply()</title>
+      <link>https://evincars.github.io/posts/bind-vs-call-vs-apply/</link>
+      <pubDate>Thu, 23 Jan 2025 02:19:09 +0100</pubDate>
+      <guid>https://evincars.github.io/posts/bind-vs-call-vs-apply/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind&#34;&gt;https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;They all attach &lt;strong&gt;this&lt;/strong&gt; into function (or object) and the difference is in the function invocation (see below).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;call&lt;/strong&gt; attaches &lt;strong&gt;this&lt;/strong&gt; into function and executes the function immediately:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;var person = {  &#xA;  name: &amp;#34;James Smith&amp;#34;,&#xA;  hello: function(thing) {&#xA;    console.log(this.name + &amp;#34; says hello &amp;#34; + thing);&#xA;  }&#xA;}&#xA;&#xA;person.hello(&amp;#34;world&amp;#34;);  // output: &amp;#34;James Smith says hello world&amp;#34;&#xA;person.hello.call({ name: &amp;#34;Jim Smith&amp;#34; }, &amp;#34;world&amp;#34;); // output: &amp;#34;Jim Smith says hello world&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;bind&lt;/strong&gt; attaches this into function and it needs to be invoked separately like this:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>General Knowledge of Js and Angular</title>
       <link>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</link>

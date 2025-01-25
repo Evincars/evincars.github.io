@@ -63,26 +63,27 @@
 	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/questions-to-interview/">Questions to Interview</a></h1>
 	<div class="entry__content"><p>General questions:</p>
 <ul>
-<li><strong>What is the most popular JS engine?</strong> <em>(Google&rsquo;s V8)</em></li>
-<li><strong>How JS gets executed? | Why JS doesn&rsquo;t use compiler?</strong> <em>()</em></li>
-<li><strong>Is JS single-threaded or multi-threaded language? Why?</strong> <em>(Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.)</em></li>
-<li><strong>How is it possible that multiple requests doesn&rsquo;t block the main loop?</strong> <em>(because of EventLoop)</em></li>
+<li><strong>[don&rsquo;t use] What is the most popular JS engine?</strong> <em>(Google&rsquo;s V8)</em></li>
+<li><strong>[don&rsquo;t use] How JS gets executed? | Why JS doesn&rsquo;t use compiler?</strong> <em>()</em></li>
+<li><strong>[don&rsquo;t use] Is JS single-threaded or multi-threaded language? Why?</strong> <em>(Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.)</em></li>
+<li><strong>How is it possible that multiple requests doesn&rsquo;t block the main thread?</strong> <em>(because of EventLoop)</em></li>
 <li><strong>Is JS object oriented? How is inheritance handled?</strong> <em>(heavily object-oriented; prototype inheritance - one object has ref to another obj (its prototype), and so on until last obj has null ref)</em></li>
 <li><strong>What is the Event Loop? How does it works?</strong> <em>()</em></li>
-<li><strong>What is serialization/deserialisation in JS?</strong> <em>(converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify)</em></li>
+<li><strong>[don&rsquo;t use - not JS related] What is serialization/deserialisation in JS?</strong> <em>(converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify)</em></li>
 <li><strong>What is the &lsquo;hoisting&rsquo; in JS?</strong> <em>(a = 0; var a; i kdyz je deklarace na konci tak interpret to hodi na zacatek a je to OK)</em></li>
-<li><strong>What is the &lsquo;memoizing&rsquo; in JS?</strong> <em>(used to increase the efficiency of function by storing the previous values that function has already been calculated)</em></li>
+<li><strong>[theory topic] What is the &lsquo;memoizing&rsquo; in JS?</strong> *(For same f-ction input, you&rsquo;ll get same output. The inputs are cached. Used to increase the efficiency of function by storing the previous values that function has already been calculated). *</li>
 <li><strong>For what is &lsquo;Symbol&rsquo; used?</strong> <em>(mostly for creation unique keys for objects)</em></li>
 <li>What returns this code: <code>1 &amp;&amp; 2</code> (2), <code>0 &amp;&amp; 2</code> (0), <code>1 || 2</code> (1), <code>0 || 2</code> (2)</li>
 <li>+[code] micro/macro tasks</li>
 </ul>
-<p>What is the difference between these two codes?</p></div>
+<p>What will be the output of this code:</p></div>
 	<div class="entry__meta meta mt tar">
 	<time class="entry__meta-published meta-published" datetime="2025-01-22T01:06:08&#43;01:00">January 22, 2025</time>
 <div class="entry__meta-categories meta-categories">
 	<span class="meta-categories__list">Categories:
 		<a class="meta-categories__link" href="/categories/interview/" rel="category">interview</a>, 
-		<a class="meta-categories__link" href="/categories/js/" rel="category">js</a>
+		<a class="meta-categories__link" href="/categories/js/" rel="category">js</a>, 
+		<a class="meta-categories__link" href="/categories/angular/" rel="category">angular</a>
 	</span>
 </div>
 	</div>

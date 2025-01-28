@@ -18,6 +18,7 @@ RxJS used in Adam's code:
 * merge
 * finalize
 * fromEvent
+* throttleTime
 * debounceTime
 * groupBy
 * interval
@@ -26,3 +27,6 @@ RxJS used in Adam's code:
 * startWith
 * takeUntil
 * takeUntilDestroyed
+
+
+`throttleTime` or `debounceTime`, think about it like this: if the action is non-repetitive (like clicks, subsequent clicks perform the exact same action), then throttle, if it is repetitive (like typing, more keys hit means a different search qurery), use debounce

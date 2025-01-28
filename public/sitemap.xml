@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evincars.github.io/</loc>
-    <lastmod>2025-01-23T02:19:09+01:00</lastmod>
+    <lastmod>2025-01-28T02:34:05+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/categories/</loc>
+    <lastmod>2025-01-28T02:34:05+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/categories/nx/</loc>
+    <lastmod>2025-01-28T02:34:05+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/posts/</loc>
+    <lastmod>2025-01-28T02:34:05+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/posts/refactor-code-automatically-with-nx/</loc>
+    <lastmod>2025-01-28T02:34:05+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/bind-vs-call-vs-apply/</loc>
     <lastmod>2025-01-23T02:19:09+01:00</lastmod>
   </url><url>
-    <loc>https://evincars.github.io/categories/</loc>
-    <lastmod>2025-01-23T02:19:09+01:00</lastmod>
-  </url><url>
     <loc>https://evincars.github.io/categories/js/</loc>
-    <lastmod>2025-01-23T02:19:09+01:00</lastmod>
-  </url><url>
-    <loc>https://evincars.github.io/posts/</loc>
     <lastmod>2025-01-23T02:19:09+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/categories/angular/</loc>
@@ -38,16 +44,15 @@
     <loc>https://evincars.github.io/posts/questions-to-interview/</loc>
     <lastmod>2025-01-22T01:06:08+01:00</lastmod>
   </url><url>
-    <loc>https://evincars.github.io/tags/hugo/</loc>
+    <loc>https://evincars.github.io/categories/hugo/</loc>
     <lastmod>2025-01-21T22:43:07+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/hugo-commands-and-solutions/</loc>
     <lastmod>2025-01-21T22:43:07+01:00</lastmod>
   </url><url>
-    <loc>https://evincars.github.io/tags/</loc>
-    <lastmod>2025-01-21T22:43:07+01:00</lastmod>
-  </url><url>
     <loc>https://evincars.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/tags/</loc>
   </url>
 </urlset>

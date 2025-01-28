@@ -2,7 +2,7 @@
 date = '2025-01-21T22:43:07+01:00'
 draft = false
 title = 'Hugo commands and solutions'
-tags = ['hugo']
+categories = ['hugo']
 +++
 
 Failed build&deployment on GitHub pages:

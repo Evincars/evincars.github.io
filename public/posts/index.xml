@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Evincars blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 02:19:09 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 02:34:05 +0100</lastBuildDate>
     <atom:link href="https://evincars.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Refactor Code Automatically With Nx</title>
+      <link>https://evincars.github.io/posts/refactor-code-automatically-with-nx/</link>
+      <pubDate>Tue, 28 Jan 2025 02:34:05 +0100</pubDate>
+      <guid>https://evincars.github.io/posts/refactor-code-automatically-with-nx/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7288495816602714114/?origin=NETWORK_CONVERSATIONS&amp;amp;midToken=AQGtNziulbkvSA&amp;amp;midSig=3hqbnnwm1w_XA1&amp;amp;trk=eml-email_network_conversations_01-network~post~cta-0-read~more&amp;amp;trkEmail=eml-email_network_conversations_01-network~post~cta-0-read~more-null-7uvmz7~m6fec1p3~14-null-null&amp;amp;eid=7uvmz7-m6fec1p3-14&amp;amp;otpToken=MTYwMjFiZTExMDI5YzFjNmIzMjQwNGVkNDUxNmU3YjQ4YWNmZDM0NzlhYWI4ODYxNmNjMDA5NmE0NjUzNTRmNmYzZDNkZjgxNGNjNmM3ZTY0M2Y4ZDlmNGJlZDNiNTlmYjIwYmU1NjljODM4NTFiZGEyOWEyZiwxLDE%3D&#34;&gt;LinkedIn Post&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Refactor your code automatically at scale with hashtag#Nx generators 👀&lt;/p&gt;&#xA;&lt;p&gt;One of my favorite Nx features is generators. They are comparable with Angular Schematics, Nx generators are framework-agnostic and have the superpower of easily traversing your entire Nx monorepo and making modifications at scale a breeze 🍃&lt;/p&gt;&#xA;&lt;p&gt;Commonly, generators are used to generate new code, but they can also be used to refactor your code at scale. No more modifying hundreds of files by hand, simply write a generator and see the magic happen 🏗️&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bind() vs Call() vs Apply()</title>
       <link>https://evincars.github.io/posts/bind-vs-call-vs-apply/</link>
@@ -27,7 +34,7 @@
       <link>https://evincars.github.io/posts/rxjs-operators/</link>
       <pubDate>Wed, 22 Jan 2025 01:09:56 +0100</pubDate>
       <guid>https://evincars.github.io/posts/rxjs-operators/</guid>
-      <description>&lt;p&gt;RxJS used in Adam&amp;rsquo;s code:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pairwise&lt;/li&gt;&#xA;&lt;li&gt;distinctUntilChanged&lt;/li&gt;&#xA;&lt;li&gt;delay&lt;/li&gt;&#xA;&lt;li&gt;forkJoin&lt;/li&gt;&#xA;&lt;li&gt;lastValueFrom&lt;/li&gt;&#xA;&lt;li&gt;withLatestFrom&lt;/li&gt;&#xA;&lt;li&gt;combineLatest&lt;/li&gt;&#xA;&lt;li&gt;defer (hlavni chain v rxMethod hned emituje value [TabInvoiceAddressComponent], coz muze zpusobit problem, takze se bud musi ostatni operatory zanorit do vnitrni .pipe nebo pouzit defer) - Adam takhle zanoruje by default vsude&lt;/li&gt;&#xA;&lt;li&gt;race&lt;/li&gt;&#xA;&lt;li&gt;merge&lt;/li&gt;&#xA;&lt;li&gt;finalize&lt;/li&gt;&#xA;&lt;li&gt;fromEvent&lt;/li&gt;&#xA;&lt;li&gt;debounceTime&lt;/li&gt;&#xA;&lt;li&gt;groupBy&lt;/li&gt;&#xA;&lt;li&gt;interval&lt;/li&gt;&#xA;&lt;li&gt;filter&lt;/li&gt;&#xA;&lt;li&gt;map&lt;/li&gt;&#xA;&lt;li&gt;startWith&lt;/li&gt;&#xA;&lt;li&gt;takeUntil&lt;/li&gt;&#xA;&lt;li&gt;takeUntilDestroyed&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;RxJS used in Adam&amp;rsquo;s code:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pairwise&lt;/li&gt;&#xA;&lt;li&gt;distinctUntilChanged&lt;/li&gt;&#xA;&lt;li&gt;delay&lt;/li&gt;&#xA;&lt;li&gt;forkJoin&lt;/li&gt;&#xA;&lt;li&gt;lastValueFrom&lt;/li&gt;&#xA;&lt;li&gt;withLatestFrom&lt;/li&gt;&#xA;&lt;li&gt;combineLatest&lt;/li&gt;&#xA;&lt;li&gt;defer (hlavni chain v rxMethod hned emituje value [TabInvoiceAddressComponent], coz muze zpusobit problem, takze se bud musi ostatni operatory zanorit do vnitrni .pipe nebo pouzit defer) - Adam takhle zanoruje by default vsude&lt;/li&gt;&#xA;&lt;li&gt;race&lt;/li&gt;&#xA;&lt;li&gt;merge&lt;/li&gt;&#xA;&lt;li&gt;finalize&lt;/li&gt;&#xA;&lt;li&gt;fromEvent&lt;/li&gt;&#xA;&lt;li&gt;throttleTime&lt;/li&gt;&#xA;&lt;li&gt;debounceTime&lt;/li&gt;&#xA;&lt;li&gt;groupBy&lt;/li&gt;&#xA;&lt;li&gt;interval&lt;/li&gt;&#xA;&lt;li&gt;filter&lt;/li&gt;&#xA;&lt;li&gt;map&lt;/li&gt;&#xA;&lt;li&gt;startWith&lt;/li&gt;&#xA;&lt;li&gt;takeUntil&lt;/li&gt;&#xA;&lt;li&gt;takeUntilDestroyed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;code&gt;throttleTime&lt;/code&gt; or &lt;code&gt;debounceTime&lt;/code&gt;, think about it like this: if the action is non-repetitive (like clicks, subsequent clicks perform the exact same action), then throttle, if it is repetitive (like typing, more keys hit means a different search qurery), use debounce&lt;/p&gt;</description>
     </item>
     <item>
       <title>Questions to Interview</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Evincars blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 02:19:09 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 02:34:05 +0100</lastBuildDate>
     <atom:link href="https://evincars.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nx</title>
+      <link>https://evincars.github.io/categories/nx/</link>
+      <pubDate>Tue, 28 Jan 2025 02:34:05 +0100</pubDate>
+      <guid>https://evincars.github.io/categories/nx/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Js</title>
       <link>https://evincars.github.io/categories/js/</link>
@@ -41,6 +48,13 @@
       <link>https://evincars.github.io/categories/interview/</link>
       <pubDate>Wed, 22 Jan 2025 01:06:08 +0100</pubDate>
       <guid>https://evincars.github.io/categories/interview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://evincars.github.io/categories/hugo/</link>
+      <pubDate>Tue, 21 Jan 2025 22:43:07 +0100</pubDate>
+      <guid>https://evincars.github.io/categories/hugo/</guid>
       <description></description>
     </item>
   </channel>

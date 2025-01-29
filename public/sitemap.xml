@@ -3,15 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evincars.github.io/</loc>
-    <lastmod>2025-01-28T02:34:05+01:00</lastmod>
+    <lastmod>2025-01-29T23:21:08+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/categories/angular/</loc>
+    <lastmod>2025-01-29T23:21:08+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/posts/angular-tips/</loc>
+    <lastmod>2025-01-29T23:21:08+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/categories/</loc>
-    <lastmod>2025-01-28T02:34:05+01:00</lastmod>
-  </url><url>
-    <loc>https://evincars.github.io/categories/nx/</loc>
-    <lastmod>2025-01-28T02:34:05+01:00</lastmod>
+    <lastmod>2025-01-29T23:21:08+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/</loc>
+    <lastmod>2025-01-29T23:21:08+01:00</lastmod>
+  </url><url>
+    <loc>https://evincars.github.io/categories/nx/</loc>
     <lastmod>2025-01-28T02:34:05+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/posts/refactor-code-automatically-with-nx/</loc>
@@ -22,9 +28,6 @@
   </url><url>
     <loc>https://evincars.github.io/categories/js/</loc>
     <lastmod>2025-01-23T02:19:09+01:00</lastmod>
-  </url><url>
-    <loc>https://evincars.github.io/categories/angular/</loc>
-    <lastmod>2025-01-22T01:11:34+01:00</lastmod>
   </url><url>
     <loc>https://evincars.github.io/categories/css/</loc>
     <lastmod>2025-01-22T01:11:34+01:00</lastmod>

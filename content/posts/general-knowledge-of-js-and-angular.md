@@ -35,6 +35,12 @@ We can treat a function as an object, store properties in it, but that has no ef
 **Directives are applied at compile time**. So changing an element's properties/classes at runtime via the DOM API-s won't apply that directive dynamically.
 
 
+- ``ElementRef`` is simply like ``document.getElementById('myId');``
+- Using ``ElementRef`` you are only able to do some decorations
+- ``TemplateRef`` is an embedded template which you can use in ``ViewContainerRef.createEmbeddedView`` to create Embedded View.
+- ``*ngFor`` is doing the same, it reads the element as a ``TemplateRef`` and injects mutiple times to create view with data
+- ``TemplateRef`` cannot be used as an element for css decorations in .ts
+
 **Design Patterns *(should know)***
 ----------------------------------------------
 * Creational (Singleton, Builder, Factory)

@@ -24,7 +24,7 @@ takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co 
 takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co nejmin nodes v domu switchMap - for any source item, completes the previous Observable and immediately creates the next one mergeMap - creates an Observable immediately for any source item, all previous Observables are kept alive. concatMap - waits for the previous Observable to complete before creating the next one exhaustMap - source items are ignored while the previous Observable is not completed we can apply many attribute directives to one host element. But can apply one structural directive to a host element. A structure directive basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But “attribute directives” are deal with changing the look and behavior of the DOM element display: block means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).">
   <meta itemprop="datePublished" content="2025-01-22T01:11:34+01:00">
   <meta itemprop="dateModified" content="2025-01-22T01:11:34+01:00">
-  <meta itemprop="wordCount" content="416">
+  <meta itemprop="wordCount" content="479">
   <meta itemprop="keywords" content="Angular,Css,Js">
 		
   <meta name="twitter:card" content="summary">
@@ -103,6 +103,13 @@ We can treat a function as an object, store properties in it, but that has no ef
 <p><strong>ngAfterContentInit</strong> : This is called after components external content has been initialized.
 <strong>ngAfterViewInit</strong> : This is called after the component view and its child views has been initialized.</p>
 <p><strong>Directives are applied at compile time</strong>. So changing an element&rsquo;s properties/classes at runtime via the DOM API-s won&rsquo;t apply that directive dynamically.</p>
+<ul>
+<li><code>ElementRef</code> is simply like <code>document.getElementById('myId');</code></li>
+<li>Using <code>ElementRef</code> you are only able to do some decorations</li>
+<li><code>TemplateRef</code> is an embedded template which you can use in <code>ViewContainerRef.createEmbeddedView</code> to create Embedded View.</li>
+<li><code>*ngFor</code> is doing the same, it reads the element as a <code>TemplateRef</code> and injects mutiple times to create view with data</li>
+<li><code>TemplateRef</code> cannot be used as an element for css decorations in .ts</li>
+</ul>
 <h2 id="design-patterns-should-know"><strong>Design Patterns <em>(should know)</em></strong></h2>
 <ul>
 <li>Creational (Singleton, Builder, Factory)</li>

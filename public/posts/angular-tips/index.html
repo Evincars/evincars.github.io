@@ -11,7 +11,7 @@
   <meta property="og:site_name" content="Evincars blog">
   <meta property="og:title" content="Angular Tips">
   <meta property="og:description" content=":host-context() – Ever wanted your Angular components to automatically adapt based on where they’re used? a CSS pseudo-class that lets your component adjust its styles based on its parent.
-Theme-aware components 🎨 → Change styles dynamically inside dark mode or high-contrast wrappers Context-sensitive layouts 📱 → Adapt header, buttons, or text styles based on parent components Cleaner code, fewer manual class bindings 🚀 → No need for extra props or [class] hacks! /* Default header styles */ :host { display: block; font-size: 24px; font-weight: bold; background-color: white; color: black; } /* Header inside a Modal */ :host-context(app-modal) { background-color: darkblue; color: white; text-align: center; } /* Header inside a Card */ :host-context(app-card) { background-color: lightgray; color: black; padding: 12px; border-bottom: 2px solid #ccc; } Difference between ElementRef and TemplateRef ElementRef is simply like document.getElementById(&#39;myId&#39;); Using ElementRef you are only able to do some decorations TemplateRef is an embedded template which you can use in ViewContainerRef.createEmbeddedView to create Embedded View. *ngFor is doing the same, it reads the element as a TemplateRef and injects mutiple times to create view with data TemplateRef cannot be used as an element for css decorations in .ts">
+Theme-aware components 🎨 → Change styles dynamically inside dark mode or high-contrast wrappers Context-sensitive layouts 📱 → Adapt header, buttons, or text styles based on parent components Cleaner code, fewer manual class bindings 🚀 → No need for extra props or [class] hacks! /* Default header styles */ :host { display: block; font-size: 24px; font-weight: bold; background-color: white; color: black; } /* Header inside a Modal */ :host-context(app-modal) { background-color: darkblue; color: white; text-align: center; } /* Header inside a Card */ :host-context(app-card) { background-color: lightgray; color: black; padding: 12px; border-bottom: 2px solid #ccc; }">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -21,16 +21,16 @@ Theme-aware components 🎨 → Change styles dynamically inside dark mode or hi
 		
   <meta itemprop="name" content="Angular Tips">
   <meta itemprop="description" content=":host-context() – Ever wanted your Angular components to automatically adapt based on where they’re used? a CSS pseudo-class that lets your component adjust its styles based on its parent.
-Theme-aware components 🎨 → Change styles dynamically inside dark mode or high-contrast wrappers Context-sensitive layouts 📱 → Adapt header, buttons, or text styles based on parent components Cleaner code, fewer manual class bindings 🚀 → No need for extra props or [class] hacks! /* Default header styles */ :host { display: block; font-size: 24px; font-weight: bold; background-color: white; color: black; } /* Header inside a Modal */ :host-context(app-modal) { background-color: darkblue; color: white; text-align: center; } /* Header inside a Card */ :host-context(app-card) { background-color: lightgray; color: black; padding: 12px; border-bottom: 2px solid #ccc; } Difference between ElementRef and TemplateRef ElementRef is simply like document.getElementById(&#39;myId&#39;); Using ElementRef you are only able to do some decorations TemplateRef is an embedded template which you can use in ViewContainerRef.createEmbeddedView to create Embedded View. *ngFor is doing the same, it reads the element as a TemplateRef and injects mutiple times to create view with data TemplateRef cannot be used as an element for css decorations in .ts">
+Theme-aware components 🎨 → Change styles dynamically inside dark mode or high-contrast wrappers Context-sensitive layouts 📱 → Adapt header, buttons, or text styles based on parent components Cleaner code, fewer manual class bindings 🚀 → No need for extra props or [class] hacks! /* Default header styles */ :host { display: block; font-size: 24px; font-weight: bold; background-color: white; color: black; } /* Header inside a Modal */ :host-context(app-modal) { background-color: darkblue; color: white; text-align: center; } /* Header inside a Card */ :host-context(app-card) { background-color: lightgray; color: black; padding: 12px; border-bottom: 2px solid #ccc; }">
   <meta itemprop="datePublished" content="2025-01-29T23:21:08+01:00">
   <meta itemprop="dateModified" content="2025-01-29T23:21:08+01:00">
-  <meta itemprop="wordCount" content="192">
+  <meta itemprop="wordCount" content="124">
   <meta itemprop="keywords" content="Angular">
 		
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Angular Tips">
   <meta name="twitter:description" content=":host-context() – Ever wanted your Angular components to automatically adapt based on where they’re used? a CSS pseudo-class that lets your component adjust its styles based on its parent.
-Theme-aware components 🎨 → Change styles dynamically inside dark mode or high-contrast wrappers Context-sensitive layouts 📱 → Adapt header, buttons, or text styles based on parent components Cleaner code, fewer manual class bindings 🚀 → No need for extra props or [class] hacks! /* Default header styles */ :host { display: block; font-size: 24px; font-weight: bold; background-color: white; color: black; } /* Header inside a Modal */ :host-context(app-modal) { background-color: darkblue; color: white; text-align: center; } /* Header inside a Card */ :host-context(app-card) { background-color: lightgray; color: black; padding: 12px; border-bottom: 2px solid #ccc; } Difference between ElementRef and TemplateRef ElementRef is simply like document.getElementById(&#39;myId&#39;); Using ElementRef you are only able to do some decorations TemplateRef is an embedded template which you can use in ViewContainerRef.createEmbeddedView to create Embedded View. *ngFor is doing the same, it reads the element as a TemplateRef and injects mutiple times to create view with data TemplateRef cannot be used as an element for css decorations in .ts">
+Theme-aware components 🎨 → Change styles dynamically inside dark mode or high-contrast wrappers Context-sensitive layouts 📱 → Adapt header, buttons, or text styles based on parent components Cleaner code, fewer manual class bindings 🚀 → No need for extra props or [class] hacks! /* Default header styles */ :host { display: block; font-size: 24px; font-weight: bold; background-color: white; color: black; } /* Header inside a Modal */ :host-context(app-modal) { background-color: darkblue; color: white; text-align: center; } /* Header inside a Card */ :host-context(app-card) { background-color: lightgray; color: black; padding: 12px; border-bottom: 2px solid #ccc; }">
       <meta name="twitter:site" content="@LasakAdam">
 
 	<link rel="stylesheet" href="/css/bundle.css">
@@ -72,15 +72,7 @@ Theme-aware components 🎨 → Change styles dynamically inside dark mode or hi
 				<h1 class="entry__title">Angular Tips</h1>
 <details class="entry__toc toc" open>
 	<summary class="toc__title">Table of Contents</summary>
-	<nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#difference-between-elementref-and-templateref">Difference between ElementRef and TemplateRef</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+	<nav id="TableOfContents"></nav>
 </details>
 				<div class="entry__content"><p><strong>:host-context()</strong> – Ever wanted your Angular components to automatically adapt based on where they’re used? a CSS pseudo-class that lets your component adjust its styles based on its parent.</p>
 <ul>
@@ -111,13 +103,7 @@ Theme-aware components 🎨 → Change styles dynamically inside dark mode or hi
     padding: 12px;
     border-bottom: 2px solid #ccc;
 }
-</code></pre><h3 id="difference-between-elementref-and-templateref">Difference between ElementRef and TemplateRef</h3>
-<p><code>ElementRef</code> is simply like <code>document.getElementById('myId');</code>
-Using <code>ElementRef</code> you are only able to do some decorations
-<code>TemplateRef</code> is an embedded template which you can use in <code>ViewContainerRef.createEmbeddedView</code> to create Embedded View.
-<code>*ngFor</code> is doing the same, it reads the element as a <code>TemplateRef</code> and injects mutiple times to create view with data
-<code>TemplateRef</code> cannot be used as an element for css decorations in .ts</p>
-</div>
+</code></pre></div>
 				
 				<footer class="entry__footer">
 					

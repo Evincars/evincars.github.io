@@ -93,7 +93,12 @@ RxJS Visualizations Website for Web Devs Top 20 RxJS operators Angular OnPush de
     padding: 12px;
     border-bottom: 2px solid #ccc;
 }
-</code></pre></div>
+</code></pre><h3 id="difference-between-elementref-and-templateref">Difference between ElementRef and TemplateRef</h3>
+<p><code>ElementRef</code> is simply like <code>document.getElementById('myId');</code>
+Using <code>ElementRef</code> you are only able to do some decorations
+<code>TemplateRef</code> is an embedded template which you can use in <code>ViewContainerRef.createEmbeddedView</code> to create Embedded View.
+<code>*ngFor</code> is doing the same, it reads the element as a <code>TemplateRef</code> and injects mutiple times to create view with data
+<code>TemplateRef</code> cannot be used as an element for css decorations in .ts</p></div>
 	<div class="entry__meta meta mt tar">
 	<time class="entry__meta-published meta-published" datetime="2025-01-29T23:21:08&#43;01:00">January 29, 2025</time>
 <div class="entry__meta-categories meta-categories">

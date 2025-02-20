@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#1b1b1b">
 	<title>General Knowledge of Js and Angular | Evincars blog</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:url" content="https://evincars.github.io/posts/general-knowledge-of-js-and-angular/">
+		<meta property="og:url" content="http://localhost:1313/posts/general-knowledge-of-js-and-angular/">
   <meta property="og:site_name" content="Evincars blog">
   <meta property="og:title" content="General Knowledge of Js and Angular">
   <meta property="og:description" content="A property assigned to a function like sayHi.counter = 0 does not define a local variable counter inside it. In other words, a property counter and a variable let counter are two unrelated things. We can treat a function as an object, store properties in it, but that has no effect on its execution. Variables are not function properties and vice versa. These are just parallel worlds.
@@ -24,7 +24,7 @@ takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co 
 takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co nejmin nodes v domu switchMap - for any source item, completes the previous Observable and immediately creates the next one mergeMap - creates an Observable immediately for any source item, all previous Observables are kept alive. concatMap - waits for the previous Observable to complete before creating the next one exhaustMap - source items are ignored while the previous Observable is not completed we can apply many attribute directives to one host element. But can apply one structural directive to a host element. A structure directive basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But “attribute directives” are deal with changing the look and behavior of the DOM element display: block means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).">
   <meta itemprop="datePublished" content="2025-01-22T01:11:34+01:00">
   <meta itemprop="dateModified" content="2025-01-22T01:11:34+01:00">
-  <meta itemprop="wordCount" content="479">
+  <meta itemprop="wordCount" content="566">
   <meta itemprop="keywords" content="Angular,Css,Js">
 		
   <meta name="twitter:card" content="summary">
@@ -103,6 +103,7 @@ We can treat a function as an object, store properties in it, but that has no ef
 <p><strong>ngAfterContentInit</strong> : This is called after components external content has been initialized.
 <strong>ngAfterViewInit</strong> : This is called after the component view and its child views has been initialized.</p>
 <p><strong>Directives are applied at compile time</strong>. So changing an element&rsquo;s properties/classes at runtime via the DOM API-s won&rsquo;t apply that directive dynamically.</p>
+<hr>
 <ul>
 <li><code>ElementRef</code> is simply like <code>document.getElementById('myId');</code></li>
 <li>Using <code>ElementRef</code> you are only able to do some decorations</li>
@@ -110,6 +111,15 @@ We can treat a function as an object, store properties in it, but that has no ef
 <li><code>*ngFor</code> is doing the same, it reads the element as a <code>TemplateRef</code> and injects mutiple times to create view with data</li>
 <li><code>TemplateRef</code> cannot be used as an element for css decorations in .ts</li>
 </ul>
+<hr>
+<p><a href="https://redux.js.org/style-guide/#do-not-put-non-serializable-values-in-state-or-actions">https://redux.js.org/style-guide/#do-not-put-non-serializable-values-in-state-or-actions</a></p>
+<p><strong>Do Not Put Non-Serializable Values in State or Actions</strong>
+Avoid putting non-serializable values such as Promises, Symbols, Maps/Sets, functions, or class instances into the Redux store state or dispatched actions. This ensures that capabilities such as debugging via the Redux DevTools will work as expected. It also ensures that the UI will update as expected.</p>
+<ul>
+<li>if you would store your <strong>state</strong> in local-storage or into the URL and you&rsquo;d refresh the page, you&rsquo;d be fucked up</li>
+<li>use Array or Object instead only - ideally use <code>withEntities</code></li>
+</ul>
+<hr>
 <h2 id="design-patterns-should-know"><strong>Design Patterns <em>(should know)</em></strong></h2>
 <ul>
 <li>Creational (Singleton, Builder, Factory)</li>
@@ -122,13 +132,13 @@ We can treat a function as an object, store properties in it, but that has no ef
 					
 					
 <div class="entry__share share">
-	<a class="share__link btn" title="Share on Twitter" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fevincars.github.io%2fposts%2fgeneral-knowledge-of-js-and-angular%2f&amp;text=General%20Knowledge%20of%20Js%20and%20Angular" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on Twitter', 'width=800,height=450,resizable=yes,toolbar=0,status=0'); return false">
+	<a class="share__link btn" title="Share on Twitter" href="https://twitter.com/intent/tweet/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fgeneral-knowledge-of-js-and-angular%2f&amp;text=General%20Knowledge%20of%20Js%20and%20Angular" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on Twitter', 'width=800,height=450,resizable=yes,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="Twitter" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"/></svg>
 	</a>
-	<a class="share__link btn" title="Share on Reddit" href="https://www.reddit.com/submit?url=https%3a%2f%2fevincars.github.io%2fposts%2fgeneral-knowledge-of-js-and-angular%2f&amp;title=General%20Knowledge%20of%20Js%20and%20Angular" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on Reddit', 'width=832,height=624,toolbar=0,status=0'); return false">
+	<a class="share__link btn" title="Share on Reddit" href="https://www.reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fgeneral-knowledge-of-js-and-angular%2f&amp;title=General%20Knowledge%20of%20Js%20and%20Angular" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on Reddit', 'width=832,height=624,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="Reddit" role="img" width="32" height="32" viewBox="0 0 512 512"><path fill-rule="evenodd" d="M375 146a32 32 0 1 0-29-46l-65-13c-5-1-9 2-10 6l-22 97c-45 1-85 15-113 36a42 42 0 1 0-45 69l-1 12c0 65 74 117 166 117s166-52 166-117l-1-11a42 42 0 1 0-44-69c-28-21-67-35-111-37l19-86 58 13a32 32 0 0 0 32 29zM190 353c2-1 4 0 5 1 15 11 38 18 61 18s46-6 61-18a7 7 0 0 1 8 10c-18 14-44 21-69 21-25-1-51-7-69-21a6 6 0 0 1 3-11zm23-44a31 31 0 1 1-44-44 31 31 0 0 1 44 44zm130 0a31 31 0 1 0-44-44 31 31 0 0 0 44 44z"/></svg>
 	</a>
-	<a class="share__link btn" title="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fevincars.github.io%2fposts%2fgeneral-knowledge-of-js-and-angular%2f&title=General%20Knowledge%20of%20Js%20and%20Angular" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
+	<a class="share__link btn" title="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fposts%2fgeneral-knowledge-of-js-and-angular%2f&title=General%20Knowledge%20of%20Js%20and%20Angular" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="LinkedIn" role="img" width="32" height="32" viewBox="0 0 512 512"><circle cx="142" cy="138" r="37"/><path stroke-width="66" d="M244 194v198M142 194v198"/><path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/></svg>
 	</a>
 </div>

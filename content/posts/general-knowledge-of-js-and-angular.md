@@ -34,12 +34,21 @@ We can treat a function as an object, store properties in it, but that has no ef
 
 **Directives are applied at compile time**. So changing an element's properties/classes at runtime via the DOM API-s won't apply that directive dynamically.
 
+---
 
 - ``ElementRef`` is simply like ``document.getElementById('myId');``
 - Using ``ElementRef`` you are only able to do some decorations
 - ``TemplateRef`` is an embedded template which you can use in ``ViewContainerRef.createEmbeddedView`` to create Embedded View.
 - ``*ngFor`` is doing the same, it reads the element as a ``TemplateRef`` and injects mutiple times to create view with data
 - ``TemplateRef`` cannot be used as an element for css decorations in .ts
+---
+[https://redux.js.org/style-guide/#do-not-put-non-serializable-values-in-state-or-actions](https://redux.js.org/style-guide/#do-not-put-non-serializable-values-in-state-or-actions)
+
+**Do Not Put Non-Serializable Values in State or Actions**
+Avoid putting non-serializable values such as Promises, Symbols, Maps/Sets, functions, or class instances into the Redux store state or dispatched actions. This ensures that capabilities such as debugging via the Redux DevTools will work as expected. It also ensures that the UI will update as expected.
+- if you would store your **state** in local-storage or into the URL and you'd refresh the page, you'd be fucked up
+- use Array or Object instead only - ideally use ``withEntities``
+---
 
 **Design Patterns *(should know)***
 ----------------------------------------------

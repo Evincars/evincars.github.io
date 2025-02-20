@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nx on Evincars blog</title>
-    <link>https://evincars.github.io/categories/nx/</link>
+    <link>http://localhost:1313/categories/nx/</link>
     <description>Recent content in Nx on Evincars blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Jan 2025 02:34:05 +0100</lastBuildDate>
-    <atom:link href="https://evincars.github.io/categories/nx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/nx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Refactor Code Automatically With Nx</title>
-      <link>https://evincars.github.io/posts/refactor-code-automatically-with-nx/</link>
+      <link>http://localhost:1313/posts/refactor-code-automatically-with-nx/</link>
       <pubDate>Tue, 28 Jan 2025 02:34:05 +0100</pubDate>
-      <guid>https://evincars.github.io/posts/refactor-code-automatically-with-nx/</guid>
+      <guid>http://localhost:1313/posts/refactor-code-automatically-with-nx/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7288495816602714114/?origin=NETWORK_CONVERSATIONS&amp;amp;midToken=AQGtNziulbkvSA&amp;amp;midSig=3hqbnnwm1w_XA1&amp;amp;trk=eml-email_network_conversations_01-network~post~cta-0-read~more&amp;amp;trkEmail=eml-email_network_conversations_01-network~post~cta-0-read~more-null-7uvmz7~m6fec1p3~14-null-null&amp;amp;eid=7uvmz7-m6fec1p3-14&amp;amp;otpToken=MTYwMjFiZTExMDI5YzFjNmIzMjQwNGVkNDUxNmU3YjQ4YWNmZDM0NzlhYWI4ODYxNmNjMDA5NmE0NjUzNTRmNmYzZDNkZjgxNGNjNmM3ZTY0M2Y4ZDlmNGJlZDNiNTlmYjIwYmU1NjljODM4NTFiZGEyOWEyZiwxLDE%3D&#34;&gt;LinkedIn Post&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Refactor your code automatically at scale with hashtag#Nx generators 👀&lt;/p&gt;&#xA;&lt;p&gt;One of my favorite Nx features is generators. They are comparable with Angular Schematics, Nx generators are framework-agnostic and have the superpower of easily traversing your entire Nx monorepo and making modifications at scale a breeze 🍃&lt;/p&gt;&#xA;&lt;p&gt;Commonly, generators are used to generate new code, but they can also be used to refactor your code at scale. No more modifying hundreds of files by hand, simply write a generator and see the magic happen 🏗️&lt;/p&gt;</description>
     </item>
   </channel>

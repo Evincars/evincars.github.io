@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Evincars blog</title>
-    <link>https://evincars.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Evincars blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Jan 2025 23:21:08 +0100</lastBuildDate>
-    <atom:link href="https://evincars.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular</title>
-      <link>https://evincars.github.io/categories/angular/</link>
+      <link>http://localhost:1313/categories/angular/</link>
       <pubDate>Wed, 29 Jan 2025 23:21:08 +0100</pubDate>
-      <guid>https://evincars.github.io/categories/angular/</guid>
+      <guid>http://localhost:1313/categories/angular/</guid>
       <description></description>
     </item>
     <item>
       <title>Nx</title>
-      <link>https://evincars.github.io/categories/nx/</link>
+      <link>http://localhost:1313/categories/nx/</link>
       <pubDate>Tue, 28 Jan 2025 02:34:05 +0100</pubDate>
-      <guid>https://evincars.github.io/categories/nx/</guid>
+      <guid>http://localhost:1313/categories/nx/</guid>
       <description></description>
     </item>
     <item>
       <title>Js</title>
-      <link>https://evincars.github.io/categories/js/</link>
+      <link>http://localhost:1313/categories/js/</link>
       <pubDate>Thu, 23 Jan 2025 02:19:09 +0100</pubDate>
-      <guid>https://evincars.github.io/categories/js/</guid>
+      <guid>http://localhost:1313/categories/js/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>https://evincars.github.io/categories/css/</link>
+      <link>http://localhost:1313/categories/css/</link>
       <pubDate>Wed, 22 Jan 2025 01:11:34 +0100</pubDate>
-      <guid>https://evincars.github.io/categories/css/</guid>
+      <guid>http://localhost:1313/categories/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Rxjs</title>
-      <link>https://evincars.github.io/categories/rxjs/</link>
+      <link>http://localhost:1313/categories/rxjs/</link>
       <pubDate>Wed, 22 Jan 2025 01:09:56 +0100</pubDate>
-      <guid>https://evincars.github.io/categories/rxjs/</guid>
+      <guid>http://localhost:1313/categories/rxjs/</guid>
       <description></description>
     </item>
     <item>
       <title>Interview</title>
-      <link>https://evincars.github.io/categories/interview/</link>
+      <link>http://localhost:1313/categories/interview/</link>
       <pubDate>Wed, 22 Jan 2025 01:06:08 +0100</pubDate>
-      <guid>https://evincars.github.io/categories/interview/</guid>
+      <guid>http://localhost:1313/categories/interview/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://evincars.github.io/categories/hugo/</link>
+      <link>http://localhost:1313/categories/hugo/</link>
       <pubDate>Tue, 21 Jan 2025 22:43:07 +0100</pubDate>
-      <guid>https://evincars.github.io/categories/hugo/</guid>
+      <guid>http://localhost:1313/categories/hugo/</guid>
       <description></description>
     </item>
   </channel>

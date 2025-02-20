@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on Evincars blog</title>
-    <link>https://evincars.github.io/categories/angular/</link>
+    <link>http://localhost:1313/categories/angular/</link>
     <description>Recent content in Angular on Evincars blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Jan 2025 23:21:08 +0100</lastBuildDate>
-    <atom:link href="https://evincars.github.io/categories/angular/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/angular/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular Tips</title>
-      <link>https://evincars.github.io/posts/angular-tips/</link>
+      <link>http://localhost:1313/posts/angular-tips/</link>
       <pubDate>Wed, 29 Jan 2025 23:21:08 +0100</pubDate>
-      <guid>https://evincars.github.io/posts/angular-tips/</guid>
+      <guid>http://localhost:1313/posts/angular-tips/</guid>
       <description>&lt;p&gt;&lt;strong&gt;:host-context()&lt;/strong&gt; – Ever wanted your Angular components to automatically adapt based on where they’re used? a CSS pseudo-class that lets your component adjust its styles based on its parent.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Theme-aware components 🎨 → Change styles dynamically inside dark mode or high-contrast wrappers&lt;/li&gt;&#xA;&lt;li&gt;Context-sensitive layouts 📱 → Adapt header, buttons, or text styles based on parent components&lt;/li&gt;&#xA;&lt;li&gt;Cleaner code, fewer manual class bindings 🚀 → No need for extra props or [class] hacks!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/* Default header styles */&#xA;:host {&#xA;    display: block;&#xA;    font-size: 24px;&#xA;    font-weight: bold;&#xA;    background-color: white;&#xA;    color: black;&#xA;}&#xA;&#xA;/* Header inside a Modal */&#xA;:host-context(app-modal) {&#xA;    background-color: darkblue;&#xA;    color: white;&#xA;    text-align: center;&#xA;}&#xA;&#xA;/* Header inside a Card */&#xA;:host-context(app-card) {&#xA;    background-color: lightgray;&#xA;    color: black;&#xA;    padding: 12px;&#xA;    border-bottom: 2px solid #ccc;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>General Knowledge of Js and Angular</title>
-      <link>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</link>
+      <link>http://localhost:1313/posts/general-knowledge-of-js-and-angular/</link>
       <pubDate>Wed, 22 Jan 2025 01:11:34 +0100</pubDate>
-      <guid>https://evincars.github.io/posts/general-knowledge-of-js-and-angular/</guid>
+      <guid>http://localhost:1313/posts/general-knowledge-of-js-and-angular/</guid>
       <description>&lt;p&gt;A property assigned to a function like sayHi.counter = 0 does not define a local variable counter inside it. In other words, a property counter and a variable let counter are two unrelated things.&#xA;We can treat a function as an object, store properties in it, but that has no effect on its execution. Variables are not function properties and vice versa. These are just parallel worlds.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;takovy zaklad pro performance je co nejvic omezit change detekci a potom mit co nejmin nodes v domu&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;switchMap&lt;/strong&gt; - for any source item, completes the previous Observable and immediately creates the next one&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;mergeMap&lt;/strong&gt; - creates an Observable immediately for any source item, all previous Observables are kept alive.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;concatMap&lt;/strong&gt; - waits for the previous Observable to complete before creating the next one&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;exhaustMap&lt;/strong&gt; - source items are ignored while the previous Observable is not completed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;we can apply many &lt;strong&gt;attribute directives&lt;/strong&gt; to one host element. But can apply one structural directive to a host element.&lt;/li&gt;&#xA;&lt;li&gt;A &lt;strong&gt;structure directive&lt;/strong&gt; basically deals with manipulating the dom elements by typically adding or removing, or manipulating elements. But &amp;ldquo;attribute directives&amp;rdquo; are deal with changing the look and behavior of the DOM element&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;display: block&lt;/strong&gt; means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).&lt;/p&gt;</description>
     </item>
     <item>
       <title>RxJs Operators</title>
-      <link>https://evincars.github.io/posts/rxjs-operators/</link>
+      <link>http://localhost:1313/posts/rxjs-operators/</link>
       <pubDate>Wed, 22 Jan 2025 01:09:56 +0100</pubDate>
-      <guid>https://evincars.github.io/posts/rxjs-operators/</guid>
+      <guid>http://localhost:1313/posts/rxjs-operators/</guid>
       <description>&lt;p&gt;RxJS used in Adam&amp;rsquo;s code:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pairwise&lt;/li&gt;&#xA;&lt;li&gt;distinctUntilChanged&lt;/li&gt;&#xA;&lt;li&gt;delay&lt;/li&gt;&#xA;&lt;li&gt;forkJoin&lt;/li&gt;&#xA;&lt;li&gt;lastValueFrom&lt;/li&gt;&#xA;&lt;li&gt;withLatestFrom&lt;/li&gt;&#xA;&lt;li&gt;combineLatest&lt;/li&gt;&#xA;&lt;li&gt;defer (hlavni chain v rxMethod hned emituje value [TabInvoiceAddressComponent], coz muze zpusobit problem, takze se bud musi ostatni operatory zanorit do vnitrni .pipe nebo pouzit defer) - Adam takhle zanoruje by default vsude&lt;/li&gt;&#xA;&lt;li&gt;race&lt;/li&gt;&#xA;&lt;li&gt;merge&lt;/li&gt;&#xA;&lt;li&gt;finalize&lt;/li&gt;&#xA;&lt;li&gt;fromEvent&lt;/li&gt;&#xA;&lt;li&gt;throttleTime&lt;/li&gt;&#xA;&lt;li&gt;debounceTime&lt;/li&gt;&#xA;&lt;li&gt;groupBy&lt;/li&gt;&#xA;&lt;li&gt;interval&lt;/li&gt;&#xA;&lt;li&gt;filter&lt;/li&gt;&#xA;&lt;li&gt;map&lt;/li&gt;&#xA;&lt;li&gt;startWith&lt;/li&gt;&#xA;&lt;li&gt;takeUntil&lt;/li&gt;&#xA;&lt;li&gt;takeUntilDestroyed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;code&gt;throttleTime&lt;/code&gt; or &lt;code&gt;debounceTime&lt;/code&gt;, think about it like this: if the action is non-repetitive (like clicks, subsequent clicks perform the exact same action), then throttle, if it is repetitive (like typing, more keys hit means a different search qurery), use debounce&lt;/p&gt;</description>
     </item>
     <item>
       <title>Questions to Interview</title>
-      <link>https://evincars.github.io/posts/questions-to-interview/</link>
+      <link>http://localhost:1313/posts/questions-to-interview/</link>
       <pubDate>Wed, 22 Jan 2025 01:06:08 +0100</pubDate>
-      <guid>https://evincars.github.io/posts/questions-to-interview/</guid>
+      <guid>http://localhost:1313/posts/questions-to-interview/</guid>
       <description>&lt;p&gt;General questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;[don&amp;rsquo;t use] What is the most popular JS engine?&lt;/strong&gt; &lt;em&gt;(Google&amp;rsquo;s V8)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;[don&amp;rsquo;t use] How JS gets executed? | Why JS doesn&amp;rsquo;t use compiler?&lt;/strong&gt; &lt;em&gt;()&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;[don&amp;rsquo;t use] Is JS single-threaded or multi-threaded language? Why?&lt;/strong&gt; &lt;em&gt;(Single-threaded; because of historical reasons - it was only a scripting language for browser. Aim was simplicity.)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How is it possible that multiple requests doesn&amp;rsquo;t block the main thread?&lt;/strong&gt; &lt;em&gt;(because of EventLoop)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Is JS object oriented? How is inheritance handled?&lt;/strong&gt; &lt;em&gt;(heavily object-oriented; prototype inheritance - one object has ref to another obj (its prototype), and so on until last obj has null ref)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the Event Loop? How does it works?&lt;/strong&gt; &lt;em&gt;()&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;[don&amp;rsquo;t use - not JS related] What is serialization/deserialisation in JS?&lt;/strong&gt; &lt;em&gt;(converting a data structure, such as object or array, into a format that can be easily stored; JSON.stringify)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What is the &amp;lsquo;hoisting&amp;rsquo; in JS?&lt;/strong&gt; &lt;em&gt;(a = 0; var a; i kdyz je deklarace na konci tak interpret to hodi na zacatek a je to OK)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;[theory topic] What is the &amp;lsquo;memoizing&amp;rsquo; in JS?&lt;/strong&gt; *(For same f-ction input, you&amp;rsquo;ll get same output. The inputs are cached. Used to increase the efficiency of function by storing the previous values that function has already been calculated). *&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;For what is &amp;lsquo;Symbol&amp;rsquo; used?&lt;/strong&gt; &lt;em&gt;(mostly for creation unique keys for objects)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;What returns this code: &lt;code&gt;1 &amp;amp;&amp;amp; 2&lt;/code&gt; (2), &lt;code&gt;0 &amp;amp;&amp;amp; 2&lt;/code&gt; (0), &lt;code&gt;1 || 2&lt;/code&gt; (1), &lt;code&gt;0 || 2&lt;/code&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;+[code] micro/macro tasks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;What will be the output of this code:&lt;/p&gt;</description>
     </item>
   </channel>

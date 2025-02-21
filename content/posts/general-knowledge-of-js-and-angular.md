@@ -50,6 +50,13 @@ Avoid putting non-serializable values such as Promises, Symbols, Maps/Sets, func
 - use Array or Object instead only - ideally use ``withEntities``
 ---
 
+``deep-equals`` je na values. Kdyz chces overridovat typy nekde zanorenem pouzij OverideProperties od ``type-fest``
+
+![Override Properties](../../assets/override-properties.jpg)
+
+
+---
+
 **Design Patterns *(should know)***
 ----------------------------------------------
 * Creational (Singleton, Builder, Factory)

@@ -52,7 +52,7 @@ Avoid putting non-serializable values such as Promises, Symbols, Maps/Sets, func
 
 ``deep-equals`` je na values. Kdyz chces overridovat typy nekde zanorenem pouzij OverideProperties od ``type-fest``
 
-![Override Properties](../../assets/override-properties.jpg)
+![OverrideProperties](../../assets/override-properties.jpg)
 
 
 ---
